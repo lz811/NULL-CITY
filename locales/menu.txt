@@ -1,0 +1,52 @@
+Server unavailable. Open the HTTPS version.|Servidor no disponible. Abre la versión HTTPS.
+Could not connect.|No se pudo conectar.
+Close|Cerrar
+Multiplayer · 2–4 players|Multijugador · 2–4 jugadores
+Night shift / online|Turno nocturno / en línea
+Five rounds. Shared questions, one answer per round. Accuracy wins.|Cinco rondas. Las mismas preguntas, una respuesta por ronda. Gana la precisión.
+Quick match|Partida rápida
+Find an open lobby. Everyone confirms readiness before starting.|Busca una sala abierta. Todos confirman que están listos antes de empezar.
+Play with friends|Jugar con amigos
+Create a room, choose a topic and timer, and share the link.|Crea una sala, elige tema y tiempo y comparte el enlace.
+Watch a match|Ver una partida
+Live rooms, scores and a review of decisions after the match.|Salas en directo, puntuaciones y revisión de decisiones al terminar.
+Open →|Abrir →
+Sign in or register for online play. The solo story needs no account.|Inicia sesión o regístrate para jugar en línea. La historia individual no requiere cuenta.
+Sign in / Register|Entrar / Registrarse
+Operator pass|Pase de operador
+Registration|Registro
+Sign in|Iniciar sesión
+Profile, friends and results →|Perfil, amigos y resultados →
+Sign out|Cerrar sesión
+This address serves game files only. Registration and sign-in require the secure server.|Esta dirección solo sirve los archivos del juego. El registro y el acceso requieren el servidor seguro.
+Go to registration / sign-in →|Ir al registro / inicio de sesión →
+If the browser does not trust the certificate, configure local certificate trust or use a server with a trusted HTTPS certificate.|Si el navegador no confía en el certificado, configura la confianza local o usa un servidor con un certificado HTTPS de confianza.
+Open the game at the authentication server's HTTPS address.|Abre el juego en la dirección HTTPS del servidor de autenticación.
+Password · 12–128 characters|Contraseña · 12–128 caracteres
+Operator name|Nombre de operador
+Create account|Crear cuenta
+Sign in|Entrar
+Already have an account|Ya tengo una cuenta
+Privacy|Privacidad
+Connecting…|Conectando…
+Operator: |Operador: 
+Dossier / achievements|Expediente / logros
+Operator dossier|Expediente del operador
+ operations completed · | operaciones completadas · 
+Story campaign progress|Progreso de la campaña
+Next objective: |Siguiente objetivo: 
+REGENT has been stopped. Return to the residents' stories or try an online shift.|REGENT ha sido detenido. Vuelve a las historias de los vecinos o prueba un turno en línea.
+Next objective: unlock the Capital and advance towards NEXUS.|Siguiente objetivo: desbloquea la Capital y avanza hacia NEXUS.
+First trace|Primer rastro
+Complete your first shift|Completa tu primer turno
+Voice of the district|Voz del barrio
+Restore the residents' broadcast|Devuelve la emisión a los vecinos
+Connection restored|Conexión restablecida
+Complete the Connection Gardens|Completa los Jardines de la Conexión
+The city remembers|La ciudad recuerda
+Stop REGENT|Detén a REGENT
+Your own style|Tu propio estilo
+Buy an outfit at NEON THREAD|Compra un atuendo en NEON THREAD
+A letter home|Una carta a casa
+Return the parcel to Yuna|Devuelve el paquete a Yuna
+Each case unlocks the next. The arena has separate levels and a daily goal: three correct answers in completed matches. Missing a day never removes progress.|Cada caso desbloquea el siguiente. La arena tiene niveles propios y un objetivo diario: tres respuestas correctas en partidas terminadas. Faltar un día no elimina el progreso.

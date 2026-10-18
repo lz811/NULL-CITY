@@ -1,0 +1,14 @@
+{
+  "name": "null-city",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "python3 scripts/serve.py",
+    "test": "node --test tests/*.test.mjs",
+    "check": "node --check src/opening-cover.js && node --check src/walkcycle-assets.js && node --check src/terrain-assets.js && node --check src/city-meta.js && node --check src/building-assets.js && node --check src/city-meta2.js && node --check src/city-meta3.js && node --check src/pack2-assets.js && node --check src/object-assets.js && node --check src/null-assets.js && node --check src/minipixel-world.js && node --check src/menu.js && node --check src/capital.js && node --check src/engine.js && node --check src/places.js && node --check src/art.js && node --check src/campaign.js && node --check src/app.js && node --check src/simulator.mjs && node --check src/characters.js && node --check src/hub.js && node --check src/noir-art.js && node --check src/signal-ui.js && python3 -m py_compile server/app.py",
+    "build": "node scripts/build.mjs",
+    "test:server": "python3 -m unittest discover -s tests -p \"test_server.py\" -v",
+    "preview:static": "python3 -m http.server 4173 --bind 127.0.0.1"
+  }
+}

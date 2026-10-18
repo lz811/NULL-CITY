@@ -1,0 +1,34 @@
+Television|Televisor
+Continue|Continuar
+Choose a tape|Elegir cinta
+Settings|Ajustes
+Character|Personaje
+Tape shelf|Estante de cintas
+Tape archive|Archivo de cintas
+Close shelf|Cerrar estante
+Signal found|Señal encontrada
+Skip transition|Saltar transición
+Night rain. Someone else's recording. Your next shift.|Lluvia nocturna. Una grabación ajena. Tu próximo turno.
+Episode |Episodio 
+Road to NEXUS / Capital districts|Camino a NEXUS / distritos de la Capital
+Save found|Partida guardada encontrada
+New recording|Nueva grabación
+ cases| casos
+Continue recording|Continuar grabación
+Start your first shift|Empezar el primer turno
+The lost address|La dirección perdida
+Basics · 7 cases|Fundamentos · 7 casos
+Frequency of the living|La frecuencia de los vivos
+Investigation · 4 cases|Investigación · 4 casos
+OSCP / Introduction|OSCP / Introducción
+One lesson. The full course is in development.|Una lección. El curso completo está en desarrollo.
+Security+ / Introduction|Security+ / Introducción
+No episode available|No hay episodios disponibles
+ completed · | completados · 
+after chapter one|después del primer capítulo
+The illustration failed to load. You can still play.|No se pudo cargar la ilustración. Puedes seguir jugando.
+Retry illustration|Volver a cargar ilustración
+Mara|Mara
+Yuna|Yuna
+Echo|Eco
+Ivo|Ivo

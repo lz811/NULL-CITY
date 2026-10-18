@@ -1,0 +1,27 @@
+services:
+  nullcity:
+    build: .
+    ports:
+      - "127.0.0.1:${PORT:-8443}:8443"
+    environment:
+      BIND: 0.0.0.0
+      PORT: 8443
+      PUBLIC_ORIGIN: ${PUBLIC_ORIGIN:-https://localhost:8443}
+      DATABASE_PATH: /app/data/nullcity.sqlite3
+    volumes:
+      - city-data:/app/data
+    restart: unless-stopped
+    read_only: true
+    tmpfs:
+      - /tmp
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    healthcheck:
+      test: ["CMD", "python3", "-c", "import ssl,urllib.request; urllib.request.urlopen('https://localhost:8443/api/health',context=ssl.create_default_context(cafile='/app/data/tls/cert.pem'),timeout=3)"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+volumes:
+  city-data:

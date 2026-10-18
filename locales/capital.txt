@@ -1,0 +1,57 @@
+Rain District|Barrio de la Lluvia
+OUTER BELT|CINTURÓN EXTERIOR
+Homes, Mara's workshop and the first traces of disappearances. Two existing chapters.|Hogares, el taller de Mara y los primeros rastros de desapariciones. Dos capítulos disponibles.
+Open from the start|Abierto desde el inicio
+Connection Gardens|Jardines de la Conexión
+THIRD RING|TERCER ANILLO
+The city park and public relays. Someone is substituting trusted certificates.|El parque y los repetidores públicos. Alguien sustituye los certificados de confianza.
+Complete chapter one|Completa el primer capítulo
+YUNA|YUNA
+Roots of trust|Raíces de confianza
+Inspect the relay|Examinar el repetidor
+Relay: garden.city. Certificate CN=garden.city, fingerprint=FAKE-0317. The name alone is not enough.|Repetidor: garden.city. Certificado CN=garden.city, fingerprint=FAKE-0317. El nombre no basta.
+Check an independent directory|Consultar una fuente independiente
+Residents' signed directory: fingerprint=GARDEN-42. Reference confirmed through a separate channel.|Directorio firmado de los vecinos: fingerprint=GARDEN-42. Referencia confirmada por un canal independiente.
+Select the trusted fingerprint|Elegir la huella de confianza
+Trust pinned to GARDEN-42. The forged certificate was rejected.|Confianza vinculada a GARDEN-42. Certificado falso rechazado.
+Restore the connection|Restablecer la conexión
+Relay restored. Yuna gives you a pass to the Observation District.|Repetidor restaurado. Yuna te entrega un pase al Distrito de Observación.
+Observation District|Distrito de Observación
+SECOND RING|SEGUNDO ANILLO
+Camera archives and monitoring center. The traces lead to the service identity REGENT.|Archivo de cámaras y centro de supervisión. Los rastros llevan a la identidad de servicio REGENT.
+Connection Gardens and chapter two's finale|Jardines de la Conexión y final del segundo capítulo
+IVO|IVO
+The administrator's shadow|La sombra del administrador
+Preserve evidence|Conservar pruebas
+Immutable copy: 03:17 actor=REGENT action=erase; 03:18 actor=MEDICAL action=read. Medical records must stay available.|Copia inmutable: 03:17 actor=REGENT action=erase; 03:18 actor=MEDICAL action=read. Los registros médicos deben seguir disponibles.
+Check the service identity|Comprobar la identidad de servicio
+REGENT uses the outdated token eraser-0317. Scope: erase citizens. Process owner: NEXUS central scheduler.|REGENT utiliza el token obsoleto eraser-0317. Alcance: erase citizens. Propietario del proceso: planificador central NEXUS.
+Revoke the dangerous token|Revocar el token peligroso
+Token eraser-0317 revoked. MEDICAL and transport remain operational.|Token eraser-0317 revocado. MEDICAL y el transporte siguen funcionando.
+Check availability|Comprobar disponibilidad
+MEDICAL: OK; TRANSIT: OK; ERASE: DENIED. The corridor to the central node is open.|MEDICAL: OK; TRANSIT: OK; ERASE: DENIED. Corredor al nodo central abierto.
+NEXUS Citadel|Ciudadela NEXUS
+CAPITAL CENTER|CENTRO DE LA CAPITAL
+REGENT treats people with inconsistent records as errors. Stop the erasure and restore the city's memory.|REGENT considera errores a las personas con registros incompatibles. Detén el borrado y devuelve la memoria a la ciudad.
+Complete the Observation District|Completa el Distrito de Observación
+MARA|MARA
+The city is not an error|La ciudad no es un error
+Confirm the operation's scope|Confirmar el alcance de la operación
+Lab node nexus.local. Authorized: snapshot, isolate REGENT, verify backup and restore. Civilian services must not be shut down.|Nodo de laboratorio nexus.local. Autorizado: instantánea, aislar REGENT, verificar copia y restaurar. No se pueden apagar los servicios civiles.
+Save system state|Guardar el estado del sistema
+Pre-intervention snapshot saved. Operation log protected against changes.|Instantánea previa guardada. Registro de operaciones protegido contra cambios.
+Stop the adversary|Detener al adversario
+REGENT: "Nonstandard records must be deleted." Erasure channel isolated; residents retain read access.|REGENT: «Los registros no estándar deben borrarse». Canal de borrado aislado; los vecinos conservan el acceso de lectura.
+Verify the backup|Verificar la copia de seguridad
+Signed citizens backup: integrity OK, 12 records, created before the attack.|Copia firmada de citizens: integridad OK, 12 registros, creada antes del ataque.
+Restore records|Restaurar registros
+12 records restored. Names and addresses belong to people again.|12 registros restaurados. Los nombres y las direcciones vuelven a pertenecer a las personas.
+Record the victory|Registrar la victoria
+An anonymized report is published. REGENT can no longer erase records. Mara: "We didn't hack the city. We gave it back to its people."|Informe anonimizado publicado. REGENT ya no puede borrar registros. Mara: «No hackeamos la ciudad. Se la devolvimos a su gente».
+You cannot access this district yet.|Todavía no puedes acceder a este distrito.
+Operation already completed. Reward received.|Operación ya completada. Recompensa recibida.
+System state unchanged. First: |Estado del sistema sin cambios. Primero: 
+. Type help for assistance.|. Escribe help para obtener ayuda.
+ XP. District complete.| XP. Distrito completado.
+Capital · ring city|Capital · ciudad de anillos
+Three rings converge on NEXUS. Terminals on the southern avenue lead to districts; each pass unlocks after an investigation.|Tres anillos convergen en NEXUS. Los terminales de la avenida sur llevan a los distritos; cada pase se desbloquea tras una investigación.

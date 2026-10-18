@@ -1,0 +1,121 @@
+{
+  "project": "NULL CITY",
+  "style": "80s pixel art + cyberpunk, vector pixel (SVG rects/paths, shape-rendering=crispEdges)",
+  "background": {
+    "id": "bg-room",
+    "svg_id": "bg-room-svg",
+    "grid": "320x180",
+    "native_preview_size": "1280x720 (scale x4)",
+    "text_labels_ru": [
+      "Потерянный адрес",
+      "Частота живых",
+      "OSCP / Введение",
+      "Security+ / Введение",
+      "Web Security",
+      "Reverse, Osint"
+    ],
+    "labels_note": "Cassette labels are an HTML overlay (font Press Start 2P, 10px, positioned at left:96px top:144px of the 1280x720 wrapper, 6 boxes 168px wide, gap 16px). Optional: scanline overlay div."
+  },
+  "characters": [
+    {
+      "id": "char-01-desert",
+      "name_ru": "Пустынник",
+      "galaxy_ru": "Скопление Кхеб",
+      "accent": "#19f0ff",
+      "theme": "goggles on forehead, red scarf, canteen",
+      "grid": "42x46",
+      "scale_in_preview": 6
+    },
+    {
+      "id": "char-02-ocean",
+      "name_ru": "Океанит",
+      "galaxy_ru": "Галактика Ньюр",
+      "accent": "#ff6be6",
+      "theme": "fins instead of ears, pearls, bubbles",
+      "grid": "42x46",
+      "scale_in_preview": 6
+    },
+    {
+      "id": "char-03-ice",
+      "name_ru": "Ледяной",
+      "galaxy_ru": "Карлик Ису",
+      "accent": "#ff8a3c",
+      "theme": "fur collar, ice-crystal crest, frost",
+      "grid": "42x46",
+      "scale_in_preview": 6
+    },
+    {
+      "id": "char-04-lava",
+      "name_ru": "Магровец",
+      "galaxy_ru": "Вихрь Магра",
+      "accent": "#ffb02e",
+      "theme": "lava cracks, ember hair, dark skin",
+      "grid": "42x46",
+      "scale_in_preview": 6
+    },
+    {
+      "id": "char-05-cyber",
+      "name_ru": "Киборг",
+      "galaxy_ru": "Туманность Тэк",
+      "accent": "#3dff7a",
+      "theme": "metal face plate, red scanner eye, antenna, cables",
+      "grid": "42x46",
+      "scale_in_preview": 6
+    },
+    {
+      "id": "char-06-gas",
+      "name_ru": "Парящий",
+      "galaxy_ru": "Облако Оулл",
+      "accent": "#ffe14d",
+      "theme": "floating gas sac, wisps, cloud robe",
+      "grid": "42x46",
+      "scale_in_preview": 6
+    },
+    {
+      "id": "char-07-crystal",
+      "name_ru": "Кристаллит",
+      "galaxy_ru": "Скопление Ксис",
+      "accent": "#ff6be6",
+      "theme": "crystal shards on shoulders/head, gems",
+      "grid": "42x46",
+      "scale_in_preview": 6
+    },
+    {
+      "id": "char-08-jungle",
+      "name_ru": "Лесной",
+      "galaxy_ru": "Спираль Вирд",
+      "accent": "#ffe14d",
+      "theme": "leaves, vines, mushroom on shoulder, flowers",
+      "grid": "42x46",
+      "scale_in_preview": 6
+    },
+    {
+      "id": "char-09-void",
+      "name_ru": "Пустотный",
+      "galaxy_ru": "Войд Нул",
+      "accent": "#8a6fd0",
+      "theme": "stars inside the body, halo ring, white glowing eyes",
+      "grid": "42x46",
+      "scale_in_preview": 6
+    },
+    {
+      "id": "char-10-hive",
+      "name_ru": "Роевой",
+      "galaxy_ru": "Улей Зум",
+      "accent": "#ff3b3b",
+      "theme": "four arms, antennae, compound red eyes, chitin plates",
+      "grid": "42x46",
+      "scale_in_preview": 6
+    }
+  ],
+  "species": {
+    "name_ru": "Нули",
+    "common_traits": [
+      "diamond on chest",
+      "three fingers per hand",
+      "three hair spikes on top",
+      "horizontal slit pupil",
+      "glossy big eyes, blush, small mouth"
+    ]
+  }
+}

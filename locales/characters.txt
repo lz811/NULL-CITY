@@ -1,0 +1,7 @@
+Side swept|De lado
+Short|Corto
+Bob|Media melena
+Long|Largo
+Mohawk|Cresta
+Bun|Moño
+Bald|Sin pelo

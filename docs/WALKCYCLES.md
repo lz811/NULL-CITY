@@ -1,0 +1,7 @@
+# Authored character pack
+
+Original `NULL_CITY_CHARACTERS_ASPHALT.zip` character PNGs are preserved in `assets/characters/`. `src/walkcycle-assets.js` extracts authored frames at runtime, removes only boundary-connected dark matte, and caches foot-aligned strips. Seven selectable player presets and eight NPC role sheets are mapped to existing casts. Player walks use four source poses; NPC walks use five. Left and right use separate authored views rather than mirroring. Idle, interaction and hacking reuse the facing idle pose because the supplied sheets have no interaction/hacking animations.
+
+World rendering is 22px tall (about 20px visible), with feet anchored to the existing collision box. Building lots remain unchanged. The identity editor previews the same strips and persists the selected preset as appearance.actor. The custom layered avatar remains available for skin/hair/outfit editing; the seven raster presets retain authored colours and clothes.
+
+The old Pack 2 bob/shear animation is a load-failure fallback only. All original city atlases and the new character sheets are allowlisted in the Python server; the standalone build embeds both original character sheets. Local game was opened and inspected in the browser after starting port 4173. Terrain, world-scale actors and editor preview render. Automated tests cover all roles/directions, strip dimensions, preset persistence and existing gameplay tests.

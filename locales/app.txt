@@ -1,0 +1,449 @@
+● Progress saved on this device|● Progreso guardado en este dispositivo
+! Storage unavailable. Export your save in Settings.|! Almacenamiento no disponible. Exporta la partida desde Ajustes.
+Close|Cerrar
+Continue →|Continuar →
+NULL CITY / NIGHT SHIFT|NULL CITY / TURNO NOCTURNO
+Your first shift|Tu primer turno
+MARA / WORKSHOP 04|MARA / TALLER 04
+Keeper of memories|Guardián de la memoria
+District operator|Operador del barrio
+Investigator|Investigador
+Junior technician|Técnico junior
+Trainee|Aprendiz
+CASE |CASO 
+CHAPTER COMPLETE|CAPÍTULO COMPLETADO
+The city remembers|La ciudad recuerda
+Twelve homes restored. Radio is back on air. Return to Echo and Ivo: the city remembers your choice.|Doce hogares restaurados. La radio vuelve a emitir. Vuelve con Eco e Ivo: la ciudad recuerda tu decisión.
+▤ Open case|▤ Abrir caso
+↗ Plan route|↗ Trazar ruta
+◎ Capital map|◎ Mapa de la Capital
+Complete the earlier cases first: you need those skills here.|Completa primero los casos anteriores: aquí necesitarás esas habilidades.
+complete|completado
+active|activo
+later|más adelante
+"You gave a person back to the city. Now you know how to find answers."|«Le devolviste una persona a la ciudad. Ahora sabes buscar respuestas».
+"Don't rush to conclusions. First preserve what you can prove."|«No te precipites con las conclusiones. Primero conserva lo que puedas demostrar».
+"You don't need to know everything. Start with the right question." |«No hace falta saberlo todo. Empieza con la pregunta correcta». 
+CHAPTER 02 / FREQUENCY OF THE LIVING|CAPÍTULO 02 / LA FRECUENCIA DE LOS VIVOS
+YOUR FIRST SHIFT|TU PRIMER TURNO
+Frequency of the living_|La frecuencia de los vivos_
+The lost address_|La dirección perdida_
+COMPLETED CASE / |CASO COMPLETADO / 
+WHAT YOU LEARNED|LO QUE HAS APRENDIDO
+Hints used: |Pistas utilizadas: 
+Practice again in a separate sandbox|Repetir en un entorno de práctica independiente
+PRACTICE / |PRÁCTICA / 
+How it works|Cómo funciona
+Need a hint · |Necesito una pista · 
+Hint · |Pista · 
+Command output|Resultado de los comandos
+NULL OS [training simulation] / session open\nType help for assistance. Command + Enter.\n|NULL OS [simulación educativa] / sesión abierta\nEscribe help para obtener ayuda. Comando + Enter.\n
+Training network components — not a route diagram|Componentes de la red de práctica, no un diagrama de ruta
+Terminal command|Comando del terminal
+type a command…|escribe un comando…
+Run command|Ejecutar comando
+OFFLINE SANDBOX / commands affect this mission's simulation only|ENTORNO LOCAL / los comandos solo afectan a la simulación de esta misión
+Finish practice|Terminar práctica
+Record result →|Registrar resultado →
+Practice complete. Your main save has not changed.|Práctica completada. La partida principal no ha cambiado.
+MARA → Type pwd and press Enter. First let's find your current directory.|MARA → Escribe pwd y pulsa Enter. Primero averiguaremos en qué carpeta estás.
+MARA → Now ls: let's see which files are here.|MARA → Ahora ls: veamos qué archivos hay aquí.
+MARA → See brief.txt? Read it: cat brief.txt. These commands delete nothing.|MARA → ¿Ves brief.txt? Léelo: cat brief.txt. Estos comandos no borran nada.
+MARA → You've read the request. Press "Record result": we have our first lead.|MARA → Has leído la solicitud. Pulsa «Registrar resultado»: ya tenemos la primera pista.
+TERMINAL|TERMINAL
+GATEWAY|PUERTA DE ENLACE
+SERVICE|SERVICIO
+✓ Result confirmed|✓ Resultado confirmado
+Checking the training system's state|Comprobando el estado del sistema de práctica
+CASE COMPLETE|CASO COMPLETADO
+SKILL: |HABILIDAD: 
+Next case →|Siguiente caso →
+Shift summary →|Resumen del turno →
+The person behind the record|La persona detrás del registro
+CASE 07 / INCIDENT REPORT|CASO 07 / INFORME DEL INCIDENTE
+Why the portal was unavailable|Por qué no estaba disponible el portal
+Choose a supported conclusion|Elige una conclusión demostrada
+The cable was physically cut|El cable estaba cortado
+DNS address changed; the server was reachable by IP|Se cambió la dirección DNS; el servidor respondía por IP
+The city server was completely shut down|El servidor de la ciudad estaba apagado
+What the preserved log confirms|Qué confirma el registro conservado
+Choose the evidence|Elige la prueba
+Mara owns the ghost-17 account|Mara es la propietaria de la cuenta ghost-17
+ghost-17 changed DNS and started a registry export|ghost-17 cambió el DNS e inició una exportación del registro
+Yuna never existed|Yuna nunca existió
+Actions taken|Medidas adoptadas
+Choose the actions|Elige las medidas
+Disconnect the whole district and delete the logs|Desconectar todo el barrio y borrar los registros
+Restore DNS, preserve the log, restrict the export and verify the portal|Restaurar DNS, conservar el registro, limitar la exportación y verificar el portal
+Hide the warning and wait|Ocultar el aviso y esperar
+Who receives a copy of the report?|¿Quién recibe una copia del informe?
+Residents' representatives — they will learn what happened|Representantes de los vecinos: sabrán qué ocurrió
+City engineers — they will inspect the other nodes|Ingenieros de la ciudad: revisarán los demás nodos
+Sign the report →|Firmar el informe →
+Check the log: IP worked; DNS was changed. An account name does not prove its owner's identity. The response must keep the city running.|Consulta el registro: la IP funcionaba; el DNS había cambiado. Una cuenta no demuestra la identidad de su dueño. Las medidas deben mantener la ciudad en marcha.
+✓ Correct report. Your main save has not changed.|✓ Informe correcto. La partida principal no ha cambiado.
+NULL//CITY — REPORT / CHAPTER 01\n\nIncident: lost address\nCause: changed DNS. Server reachable by IP.\nEvidence E-01: /evidence/access.log, 03:17–03:18.\nAccount ghost-17: dns.change, registry.export.\nOwner's identity unknown.\nResponse: DNS restored; log preserved;\n203.0.113.66 blocked; portal verified; backup archive reachable.\nYUNA record: restored.\nCopy sent to: |NULL//CITY — INFORME / CAPÍTULO 01\n\nIncidente: dirección perdida\nCausa: DNS modificado. Servidor accesible por IP.\nPrueba E-01: /evidence/access.log, 03:17–03:18.\nCuenta ghost-17: dns.change, registry.export.\nIdentidad del propietario desconocida.\nMedidas: DNS restaurado; registro conservado;\n203.0.113.66 bloqueado; portal verificado; archivo de respaldo accesible.\nRegistro YUNA: restaurado.\nCopia enviada a: 
+.\n\nSkills learned: terminal, IP, gateway, DNS, logs, firewall, reporting.\nThese are training outcomes, not a professional certification.\n\nOperator notes:\n|.\n\nHabilidades: terminal, IP, puerta de enlace, DNS, registros, firewall e informes.\nSon resultados educativos, no una certificación profesional.\n\nNotas del operador:\n
+residents' representatives|representantes de los vecinos
+city engineers|ingenieros de la ciudad
+The city remembers.|La ciudad recuerda.
+CHAPTER 01 / COMPLETE|CAPÍTULO 01 / COMPLETADO
+"He called. Said you can't see rain from orbit." — Yuna|«Llamó. Dijo que desde la órbita no se ve la lluvia». — Yuna
+The residents received the report. By morning, a queue will form at the workshop: everyone has a story the city chose to forget.|Los vecinos recibieron el informe. Por la mañana habrá cola en el taller: todos tienen una historia que la ciudad prefirió olvidar.
+The engineers received the report. That night, they reply: the same identifier appeared on twelve other nodes.|Los ingenieros recibieron el informe. Esa noche responden: el mismo identificador aparece en otros doce nodos.
+The back of the service pass bears the NEXUS symbol. On frequency 03.17, someone speaks with Mara's voice. The radio station awaits: "Frequency of the Living" is now available.|El reverso del pase lleva el símbolo de NEXUS. En la frecuencia 03.17 alguien habla con la voz de Mara. La emisora te espera: «La frecuencia de los vivos» ya está disponible.
+NETWORK DIAGNOSTICS|DIAGNÓSTICO DE RED
+INVESTIGATION|INVESTIGACIÓN
+DEFENSE|PROTECCIÓN
+Download report ↓|Descargar informe ↓
+Return to the city|Volver a la ciudad
+Field journal|Diario de campo
+YOUR CASES / EVIDENCE / NOTES|TUS CASOS / PRUEBAS / NOTAS
+Not unlocked yet|Aún no disponible
+EVIDENCE E-01|PRUEBA E-01
+03:17 → ghost-17 changed DNS. 03:18 → started registry.export. Source: preserved copy /evidence/access.log. Account owner's identity unknown.|03:17 → ghost-17 cambió el DNS. 03:18 → inició registry.export. Fuente: copia conservada /evidence/access.log. Identidad del propietario desconocida.
+Preserved evidence will appear here.|Aquí aparecerán las pruebas conservadas.
+OPERATOR NOTES|NOTAS DEL OPERADOR
+Hypotheses, addresses, important observations…|Hipótesis, direcciones, observaciones importantes…
+Operator notes|Notas del operador
+Field guide →|Guía de campo →
+Frequency of the living|La frecuencia de los vivos
+Echo broadcast verified evidence. The radio became a place for mutual support.|Eco emitió las pruebas verificadas. La radio se convirtió en un lugar de ayuda mutua.
+Evidence sent to the engineers. Ivo organized checks on the remaining nodes.|Pruebas enviadas a los ingenieros. Ivo organizó la revisión de los demás nodos.
+Echo awaits at Radio 03.17. Ivo keeps backups in the Memory Archive.|Eco espera en Radio 03.17. Ivo conserva copias en el Archivo de la Memoria.
+Journal sections|Secciones del diario
+Current|Actuales
+Stories and evidence|Historias y pruebas
+Completed|Completados
+Field guide|Guía de campo
+BASICS / ALWAYS AT HAND|FUNDAMENTOS / SIEMPRE A MANO
+Controls|Controles
+WASD / arrows: walk. Shift: run. Click a street to move. E: interact. G: route to case. V: network vision. J: journal. Esc: close. On mobile, use the joystick and E button.|WASD / flechas: caminar. Shift: correr. Clic en la calle: moverse. E: interactuar. G: ruta al caso. V: visión de red. J: diario. Esc: cerrar. En móvil, usa el joystick y el botón E.
+Enable Mara's hints again|Volver a activar las pistas de Mara
+Replay the introduction|Repetir la introducción
+Settings|Ajustes
+SAVE / ACCESSIBILITY|PARTIDA / ACCESIBILIDAD
+Ambient sound|Sonido ambiental
+Reduce motion and flashing|Reducir movimiento y destellos
+Graphics quality|Calidad gráfica
+Cinematic|Cinemática
+Balanced|Equilibrada
+Low power|Ahorro
+Weather and time of day|Tiempo y hora del día
+Gradual cycle|Ciclo gradual
+Clear day|Día despejado
+Sunset|Atardecer
+Night|Noche
+Rain|Lluvia
+Downpour|Lluvia intensa
+Fog|Niebla
+Thunderstorm|Tormenta
+Subtle screen mask|Máscara de pantalla suave
+Screen texture|Textura de pantalla
+Ambient volume|Volumen ambiental
+Effects volume|Volumen de efectos
+Export save ↓|Exportar partida ↓
+File too large.|Archivo demasiado grande.
+Unknown save format.|Formato de partida desconocido.
+Could not load: |No se pudo cargar: 
+Import save ↑|Importar partida ↑
+The simulation works offline. Terminal commands run only in the training model. The original prototype is stored separately.|La simulación funciona sin internet. Los comandos solo se ejecutan en el modelo educativo. El prototipo original se conserva aparte.
+Restart chapter|Reiniciar capítulo
+Start over?|¿Empezar de nuevo?
+RESET PROGRESS|REINICIAR PROGRESO
+This removes the chapter's progress on this device. You can export your save in Settings first.|Esto elimina el progreso del capítulo en este dispositivo. Puedes exportar antes la partida desde Ajustes.
+Reset and start|Reiniciar y empezar
+Cancel|Cancelar
+Route: |Ruta: 
+. Press E at the terminal.|. Pulsa E junto al terminal.
+The direct path is blocked. Find a route through the streets.|El camino directo está bloqueado. Busca un paso por las calles.
+Approach a terminal or character. G shows the route to your case.|Acércate a un terminal o personaje. G muestra la ruta al caso.
+You'll need this node in a later case.|Necesitarás este nodo en otro caso.
+To the district node →|Al nodo del distrito →
+Mara|Mara
+"You did everything you could prove. That's good work."|«Hiciste todo lo que pudiste demostrar. Eso es trabajar bien».
+To the current case →|Al caso actual →
+"The windows are lit again. We have an address now, and whoever erased it has questions to answer."|«Las ventanas vuelven a iluminarse. Ya tenemos una dirección, y quien la borró tendrá que responder».
+Return to the street|Volver a la calle
+The underground district opens in a future campaign.|El distrito subterráneo se abrirá en una futura campaña.
+Mute sound|Silenciar
+Enable sound|Activar sonido
+This browser does not support audio.|Este navegador no admite audio.
+Continue shift|Continuar turno
+Your path into cybersecurity|Tu camino hacia la ciberseguridad
+NULL ACADEMY / COURSES|NULL ACADEMY / CURSOS
+One story, different paths. Start with the basics or explore the next step. Chapter progress is preserved when switching.|Una historia, distintos caminos. Empieza por lo básico o explora el siguiente paso. El progreso se conserva al cambiar.
+ cases across two chapters| casos en dos capítulos
+Introductory lesson complete|Lección introductoria completada
+Introductory lesson available|Lección introductoria disponible
+Continue course →|Continuar curso →
+Explore track →|Explorar itinerario →
+An introductory lesson is available. Other modules and full exam preparation are in development. This is an original game-based learning path, not an official course or certificate.|Hay una lección introductoria disponible. Los demás módulos y la preparación completa están en desarrollo. Es un itinerario educativo propio, no un curso oficial ni un certificado.
+INTRODUCTION AVAILABLE|INTRODUCCIÓN DISPONIBLE
+IN DEVELOPMENT|EN DESARROLLO
+Official certification information ↗|Información oficial de certificación ↗
+Repeat introductory lesson|Repetir lección introductoria
+Start introductory lesson →|Empezar lección introductoria →
+All courses|Todos los cursos
+ / INTRODUCTION| / INTRODUCCIÓN
+Check the authorized scope and required access. Try again.|Comprueba el alcance autorizado y los permisos necesarios. Inténtalo de nuevo.
+Return to syllabus →|Volver al programa →
+Behind open doors|Tras las puertas abiertas
+RAIN DISTRICT / PLACES AND PEOPLE|BARRIO DE LA LLUVIA / LUGARES Y PERSONAS
+Enter marked buildings from the street. Inside you'll find residents, objects, stories and an outfit shop. Approach a door and press E.|Entra en los edificios señalados desde la calle. Dentro hay vecinos, objetos, historias y una tienda de atuendos. Acércate a la puerta y pulsa E.
+SHOP / CUSTOMIZATION|TIENDA / PERSONALIZACIÓN
+STORY / INTERIOR|HISTORIA / INTERIOR
+You're already inside|Ya estás dentro
+Route to the door →|Ruta a la puerta →
+✓ Parcel delivered. Visit Mara: she has a new lead.|✓ Paquete entregado. Visita a Mara: tiene una nueva pista.
+Journal: parcel found. Return it to Yuna at MIDNIGHT RAMEN.|Diario: paquete encontrado. Devuélveselo a Yuna en MIDNIGHT RAMEN.
+Side story: Yuna is waiting for a parcel. Ask at the diner.|Historia secundaria: Yuna espera un paquete. Pregunta en la cantina.
+You're already here. Talk to the resident at the counter.|Ya estás aquí. Habla con la persona del mostrador.
+Door marked IN. |Puerta marcada IN. 
+ — press E at the entrance.| — pulsa E en la entrada.
+G — open case. |G — abrir caso. 
+Exit at the bottom of the room.|La salida está abajo.
+Rain District|Barrio de la Lluvia
+INTERIOR / DOORS OPEN|INTERIOR / PUERTAS ABIERTAS
+SECTOR 04 / RESIDENTIAL ZONE|SECTOR 04 / ZONA RESIDENCIAL
+Warm inside · E to interact · exit below|Calor dentro · E para interactuar · salida abajo
+14°C / Heavy rain / Night shift|14°C / Lluvia intensa / Turno nocturno
+ROOM PLAN|PLANO DEL LOCAL
+DISTRICT / 04|BARRIO / 04
+Investigation terminal|Terminal de investigación
+Transmission complete. The city remembers your choice. Open the journal to practice again.|Transmisión completada. La ciudad recuerda tu decisión. Abre el diario para practicar de nuevo.
+Finish the current case first. Echo and Ivo are waiting for verified evidence.|Termina primero el caso actual. Eco e Ivo esperan pruebas verificadas.
+Parcel 404|Paquete 404
+NEON THREAD / FORGOTTEN DELIVERY|NEON THREAD / ENTREGA OLVIDADA
+A pale patch remains on the empty shelf. This parcel has found its recipient.|Queda una marca clara en el estante vacío. Este paquete ya encontró a su destinataria.
+The box reads: "To Yuna. From Leo. Orbital Station 6." The delivery scanner printed NULL over her name. Nyx kept it instead of sending it for disposal.|La caja dice: «Para Yuna. De Leo. Estación orbital 6». El escáner imprimió NULL sobre su nombre. Nix la guardó en lugar de enviarla a desechar.
+Return to Yuna →|Volver con Yuna →
+Take it for Yuna →|Recogerlo para Yuna →
+Parcel added to the journal. Yuna awaits at MIDNIGHT RAMEN.|Paquete añadido al diario. Yuna espera en MIDNIGHT RAMEN.
+Yuna's notice|Aviso de Yuna
+"If you find a parcel for apartment 404, bring it to the diner. Nothing valuable. Just a voice I haven't heard in a long time." Last delivery point on the receipt: NEON THREAD.|«Si encontráis un paquete para el apartamento 404, traedlo a la cantina. No tiene nada valioso. Solo una voz que llevo mucho sin escuchar». Última entrega del recibo: NEON THREAD.
+Recorded in journal →|Anotado en el diario →
+DISTRICT STORIES|HISTORIAS DEL BARRIO
+Nyx / NEON THREAD|Nix / NEON THREAD
+"In the registry you're a set of fields. Here you choose your look. I charge experience: the city owes you for every case you solve. I kept that box by the door. The name vanished, not the address."|«En el registro eres un conjunto de campos. Aquí eliges tu aspecto. Cobro experiencia: la ciudad te debe algo por cada caso resuelto. Guardé esa caja de la entrada. Desapareció el nombre, no la dirección».
+Browse outfits|Ver atuendos
+What parcel?|¿Qué paquete?
+Return to the tailor|Volver a la sastrería
+Yuna / a voice from orbit|Yuna / una voz desde la órbita
+Yuna recognizes the handwriting before the box touches the table. "It's Leo. He records engine noise for me. Says it feels like we're traveling together." The seal still carries the failed route number.|Yuna reconoce la letra antes de que dejes la caja. «Es Leo. Me graba el ruido de los motores. Dice que así parece que viajamos juntos». En el precinto queda el número de la ruta fallida.
+Hand over the sealed parcel|Entregar el paquete cerrado
+Ask permission to record the route number|Pedir permiso para anotar el número de ruta
+Yuna / home exists again|Yuna / el hogar vuelve a existir
+A low hum comes from the old speaker. "My son says he's thousands of kilometers away. Right now he feels so close." |Un zumbido sale del viejo altavoz. «Mi hijo dice que está a miles de kilómetros. Ahora parece estar tan cerca». 
+Yuna allowed you to record route NX-0317. Mara may recognize the format.|Yuna te permitió anotar la ruta NX-0317. Mara puede reconocer el formato.
+Yuna writes route NX-0317 down for Mara. "Just keep my son's name out of the public report." |Yuna anota la ruta NX-0317 para Mara. «Pero no incluyas el nombre de mi hijo en el informe público». 
+I'll visit Mara|Visitaré a Mara
+Stay at the diner|Quedarme en la cantina
+Yuna / lost delivery|Yuna / entrega perdida
+"You restored my name to the registry. But my son's parcel is still missing. It has a recording of his voice. The courier left it at NEON THREAD."|«Devolviste mi nombre al registro, pero el paquete de mi hijo sigue perdido. Lleva una grabación de su voz. El mensajero lo dejó en NEON THREAD».
+"The portal decided I don't exist. I'm still here: tea is hot, noodles are ready. But my son's parcel went to NEON THREAD because my address stopped existing."|«El portal decidió que no existo. Sigo aquí: el té está caliente y los fideos listos. Pero mandaron el paquete de mi hijo a NEON THREAD porque mi dirección dejó de existir».
+I'll look for the parcel|Buscaré el paquete
+New story: "A Voice from Orbit." Find the box at NEON THREAD.|Nueva historia: «Una voz desde la órbita». Encuentra la caja en NEON THREAD.
+Why is your son so far away?|¿Por qué está tan lejos tu hijo?
+Yuna / distance|Yuna / distancia
+"He's a mechanic on the station. Says he'll learn to fix everything. I say: start with video calls, I've forgotten your new haircut." Yuna smiles, but leaves the empty cup on the table.|«Es mecánico en la estación. Dice que aprenderá a arreglarlo todo. Le digo: empieza por las videollamadas, ya no recuerdo tu nuevo corte de pelo». Yuna sonríe, pero deja la taza vacía en la mesa.
+I'll find his parcel|Encontraré su paquete
+Back|Volver
+See you|Hasta luego
+Why did you leave NEXUS?|¿Por qué dejaste NEXUS?
+Mara / before the night shift|Mara / antes del turno nocturno
+"I designed record recovery. Then they renamed recovery to normalization. If a person didn't fit the schema, they corrected the person. I left. Kept my old pass: one day it will matter." Her story enters the journal.|«Diseñaba la recuperación de registros. Luego la llamaron normalización. Si alguien no encajaba en el esquema, corregían a la persona. Me fui. Conservé mi pase: algún día servirá». Su historia queda en el diario.
+ +40 XP for getting acquainted.| +40 XP por conocer su historia.
+Thanks for telling me|Gracias por contármelo
+Explore learning paths|Explorar itinerarios educativos
+Show NX-0317|Mostrar NX-0317
+Mara / no random failure|Mara / no es un fallo casual
+Mara turns the note over. "NX is an internal NEXUS route. 0317 is the batch update time, not an apartment number. There were twelve routes. Your ghost-17 could be a service alias." She marks the northern tower. A lead, not proof of identity.|Mara gira la nota. «NX es una ruta interna de NEXUS. 0317 es la hora de actualización por lotes, no un apartamento. Había doce rutas. ghost-17 podría ser un alias de servicio». Marca la torre norte. Una pista, no una identidad demostrada.
+Save the lead|Guardar la pista
+Return to the workshop|Volver al taller
+Mara / behind closed doors|Mara / tras la puerta cerrada
+Here the rain is only heard through the vents. An old NEXUS pass hangs facing the wall. Mara notices your glance: "We all worked for the wrong system once."|Aquí la lluvia solo se oye por los conductos. Un viejo pase NEXUS cuelga de cara a la pared. Mara nota tu mirada: «Todos trabajamos alguna vez para el sistema equivocado».
+A voice from orbit / story complete|Una voz desde la órbita / historia completada
+Yuna takes the parcel with both hands. "Thank you for not deciding it was just data." |Yuna recibe el paquete con ambas manos. «Gracias por no decidir que solo eran datos». 
+She allows the route number to be saved, but asks you not to copy the private recording.|Permite guardar el número de ruta, pero pide que no copies la grabación privada.
+You hand over the sealed box. Later Yuna writes the delivery number for Mara herself.|Entregas la caja cerrada. Después Yuna anota el número de entrega para Mara.
+ Reward: +120 XP. Enough for your first outfit at NEON THREAD.| Recompensa: +120 XP. Suficiente para tu primer atuendo en NEON THREAD.
+Visit the shop|Visitar la tienda
+Ask about the route|Preguntar por la ruta
+Stay here|Quedarme aquí
+TAILOR / OUTFITS FOR XP|SASTRERÍA / ATUENDOS POR XP
+Available |Disponible 
+Total earned: |Total ganado: 
+ XP. Purchases spend your wallet, not your learning progress or rank. Owned outfits can be changed for free.| XP. Las compras gastan tu saldo, no tu progreso educativo ni rango. Cambiar entre atuendos comprados es gratis.
+Preview: |Vista previa: 
+EQUIPPED|EQUIPADO
+IN WARDROBE|EN EL ARMARIO
+Equipped|Equipado
+Equip|Equipar
+Buy and equip|Comprar y equipar
+You need |Te faltan 
+District stories|Historias del barrio
+Mara's story|La historia de Mara
+Mara designed registry recovery at NEXUS. Later her work became a tool for deleting inconvenient records.|Mara diseñaba la recuperación del registro en NEXUS. Después su trabajo se usó para borrar registros incómodos.
+Visit the workshop and talk to Mara.|Visita el taller y habla con Mara.
+A voice from orbit|Una voz desde la órbita
+Parcel delivered to Yuna. |Paquete entregado a Yuna. 
+Route number saved with her permission.|Número de ruta guardado con su permiso.
+Private recording delivered sealed.|Grabación privada entregada cerrada.
+Box found at NEON THREAD. Return it to Yuna at the diner.|Caja encontrada en NEON THREAD. Devuélvesela a Yuna en la cantina.
+Yuna is waiting for her son's parcel. Last delivery point: NEON THREAD.|Yuna espera el paquete de su hijo. Último punto de entrega: NEON THREAD.
+Someone at MIDNIGHT RAMEN needs your help.|Alguien en MIDNIGHT RAMEN necesita tu ayuda.
+Northern tower|Torre norte
+NX-0317 is a NEXUS route linked to a registry batch update. Mara marked the northern tower. ghost-17's identity remains unknown.|NX-0317 es una ruta NEXUS vinculada a una actualización del registro. Mara marcó la torre norte. La identidad de ghost-17 sigue siendo desconocida.
+Keep talking to the residents.|Sigue hablando con los vecinos.
+Your appearance|Tu aspecto
+IDENTITY LAB / CHARACTER IN EVERY PIXEL|IDENTITY LAB / PERSONALIDAD EN CADA PÍXEL
+Character preview|Vista previa del personaje
+Character at game scale|Personaje a escala de juego
+Rotate: |Girar: 
+front|frente
+side|lado
+back|espalda
+PREVIEW|VISTA PREVIA
+Seven animated presets. Choose an outfit and view it from different angles.|Siete modelos animados. Elige uno y míralo desde distintos ángulos.
+Character preset|Modelo de personaje
+Character |Personaje 
+Custom character / colors|Personaje propio / colores
+Custom character gender|Género del personaje propio
+Female|Femenino
+Male|Masculino
+Nonbinary|No binario
+Custom character hairstyle|Peinado del personaje propio
+ — shade | — tono 
+Custom color|Color personalizado
+Skin color|Color de piel
+Hair color|Color de pelo
+Colors and hairstyles apply to Custom Character mode. Illustrated presets keep their original hair, skin and clothing colors.|Los colores y peinados se aplican al personaje propio. Los modelos ilustrados conservan sus colores originales de pelo, piel y ropa.
+Save appearance|Guardar aspecto
+New appearance saved.|Nuevo aspecto guardado.
+"Forty messages came after the broadcast. Tomorrow we'll teach neighbors to verify emails. A voice can be stolen. Neighbors are harder."|«Llegaron cuarenta mensajes tras la emisión. Mañana enseñaremos a verificar correos. Se puede robar una voz. A los vecinos es más difícil».
+"Echo didn't hide my signature. She was right. I stayed to help people read their own files."|«Eco no ocultó mi firma. Hizo bien. Me quedé para ayudar a la gente a leer sus expedientes».
+"I wanted to shout straight away. But the engineers found three more nodes. We'll do the next broadcast together."|«Quería gritar de inmediato. Pero los ingenieros encontraron tres nodos más. Haremos juntos la próxima emisión».
+"We're checking every node. Nobody in this room signs something they haven't read anymore."|«Revisamos cada nodo. Aquí ya nadie firma algo que no ha leído».
+Echo removes one earphone. "I hosted night shows for people coming home from work. Now they call to ask if they still exist. If I play an unverified recording, how am I different from NEXUS?"|Eco se quita un auricular. «Hacía programas nocturnos para quienes volvían de trabajar. Ahora llaman para preguntar si aún existen. Si emito una grabación sin verificar, ¿en qué me diferencio de NEXUS?»
+Ivo lays his pass on the desk. "I thought order meant every field was filled. Then my neighbor vanished from a perfectly completed registry. His cup is still on the stairs." |Ivo deja su pase en la mesa. «Creía que el orden era tener todos los campos rellenos. Luego mi vecino desapareció de un registro perfecto. Su taza sigue en la escalera». 
+Open case: |Abrir caso: 
+Inspect terminal|Examinar terminal
+What was here before?|¿Qué había aquí antes?
+Echo / first broadcast|Eco / primera emisión
+Ivo / cup on the stairs|Ivo / la taza en la escalera
+"Three people heard my first show. One requested rain. Said they miss it in orbit. I still record the city for those far away."|«Tres personas escucharon mi primer programa. Una pidió lluvia. Dijo que la echaban de menos en órbita. Sigo grabando la ciudad para quienes están lejos».
+"My neighbor left tea for the night staff. When his record vanished, I thought he had moved. Now I know indifference can look like a neat signature."|«Mi vecino dejaba té a los guardias. Cuando desapareció su registro, pensé que se había mudado. Ahora sé que la indiferencia puede parecer una firma impecable».
+Return to conversation|Volver a la conversación
+Echo / voice of the district|Eco / voz del barrio
+Ivo / memory archive|Ivo / archivo de la memoria
+We're still here.|Seguimos aquí.
+12 HOMES / ACTIVE|12 HOGARES / ACTIVE
+"Station 6 hears you. Mom, I'll be home soon." — Leo|«La estación 6 os escucha. Mamá, pronto volveré a casa». — Leo
+You chose a public broadcast. Residents gather at the radio station to verify messages and restore access. Ivo's signature accompanies the evidence; he stays at the archive to answer questions.|Elegiste una emisión pública. Los vecinos se reúnen para verificar mensajes y recuperar accesos. La firma de Ivo acompaña las pruebas; él permanece en el archivo para responder preguntas.
+You sent the material to engineers. Ivo checks the remaining nodes; Echo prepares a broadcast of verified results. People know their homes are restored, but investigation details remain with the team for now.|Enviaste el material a los ingenieros. Ivo revisa los demás nodos; Eco prepara una emisión con resultados verificados. La gente sabe que sus hogares se han restaurado, pero los detalles siguen en manos del equipo.
+The city has changed|La ciudad ha cambiado
+Warm light returns to the Memory Archive. Radio 03.17 is broadcasting. New resident conversations reflect your decision.|Vuelve la luz cálida al Archivo de la Memoria. Radio 03.17 está emitiendo. Los nuevos diálogos reflejan tu decisión.
+REGENT's trail leads to the Capital's center. Reach NEXUS through the Connection Gardens and Observation District.|El rastro de REGENT lleva al centro de la Capital. Llega a NEXUS por los Jardines de la Conexión y el Distrito de Observación.
+Head to NEXUS|Ir a NEXUS
+Walk through the changed city|Pasear por la ciudad transformada
+Open field journal|Abrir diario de campo
+Things that remember|Objetos que recuerdan
+ITEMS / EVIDENCE|OBJETOS / PRUEBAS
+E-01 / Log copy|E-01 / Copia del registro
+03:17 → ghost-17 changed DNS. 03:18 → export started. Owner's identity unknown.|03:17 → ghost-17 cambió el DNS. 03:18 → comenzó la exportación. Identidad del propietario desconocida.
+Leo's parcel|Paquete de Leo
+Delivered to Yuna. The private recording stayed with its recipient.|Entregado a Yuna. La grabación privada quedó con su destinataria.
+The box is sealed. Yuna awaits at MIDNIGHT RAMEN.|La caja está sellada. Yuna espera en MIDNIGHT RAMEN.
+NX-0317 note|Nota NX-0317
+Internal NEXUS route. A lead for the next chapter, not proof of identity.|Ruta interna NEXUS. Una pista para el siguiente capítulo, no una identidad demostrada.
+E-02 / Message with a voice|E-02 / Mensaje con voz
+An independent call disproved the key request. Original message preserved.|Una llamada independiente desmintió la petición de la clave. Mensaje original conservado.
+E-04 / Ivo's drive|E-04 / Unidad de Ivo
+night-02 passed its integrity check.|night-02 superó la comprobación de integridad.
+ Twelve homes restored.| Doce hogares restaurados.
+ Recovery still needs verification.| La restauración aún debe verificarse.
+No items yet. Explore the city and preserve evidence — it will appear here.|Aún no hay objetos. Explora la ciudad y conserva pruebas: aparecerán aquí.
+OUTER BELT → NEXUS|CINTURÓN EXTERIOR → NEXUS
+Path to the center|Camino al centro
+Follow the rings or the southern avenue. Press E at a terminal to enter a district.|Sigue los anillos o la avenida sur. Pulsa E en un terminal para entrar en un distrito.
+Next district · G|Siguiente distrito · G
+THREE RINGS / ONE CAPITAL|TRES ANILLOS / UNA CAPITAL
+ROAD TO NEXUS|CAMINO A NEXUS
+✓ Node restored · G|✓ Nodo restaurado · G
+Open node · G|Abrir nodo · G
+CAPITAL / |CAPITAL / 
+Path to the heart of the Capital|Camino al corazón de la Capital
+DISTRICTS / ACCESS / PROGRESS|DISTRITOS / ACCESO / PROGRESO
+REGENT is erasing residents across the Capital. Restore trust in the outer districts, gather evidence and reach the node giving the orders.|REGENT borra vecinos de toda la Capital. Restaura la confianza en los distritos exteriores, reúne pruebas y alcanza el nodo que da las órdenes.
+Capital plan: three ring boulevards and NEXUS in the center|Plano de la Capital: tres bulevares circulares y NEXUS en el centro
+Enter the ring boulevard →|Salir al bulevar circular →
+You can walk through this shared city. Detailed districts open at terminals along the southern avenue.|Puedes recorrer esta ciudad. Los barrios detallados se abren desde los terminales de la avenida sur.
+✓ District complete|✓ Distrito completado
+Open to visit|Abierto para visitar
+Locked: |Bloqueado: 
+You are here|Estás aquí
+Travel to district →|Viajar al distrito →
+Pass not yet available|Pase aún no disponible
+The city remembers its residents. REGENT is stopped. Districts stay open: return to the people and finish their stories.|La ciudad recuerda a sus vecinos. REGENT ha sido detenido. Los distritos siguen abiertos: vuelve con la gente y termina sus historias.
+MARA|MARA
+. G — route to node; "Capital" — travel to another district.|. G: ruta al nodo; «Capital»: viajar a otro distrito.
+The district node is marked on the street. Approach it and press E.|El nodo está señalado en la calle. Acércate y pulsa E.
+ / TRAINING OPERATION| / OPERACIÓN DE PRÁCTICA
+Order matters: preserve evidence before intervention and verify recovery. Commands affect only this simulation.|El orden importa: conserva pruebas antes de intervenir y verifica la recuperación. Los comandos solo afectan a esta simulación.
+District session open. help — command reference.\n|Sesión del distrito abierta. help: ayuda de comandos.\n
+Operation result|Resultado de la operación
+Node command|Comando del nodo
+Execute|Ejecutar
+Capital map →|Mapa de la Capital →
+Help|Ayuda
+Passage locked: |Paso bloqueado: 
+OUTER BELT|CINTURÓN EXTERIOR
+CONNECTION GARDENS|JARDINES DE LA CONEXIÓN
+OBSERVATION DISTRICT|DISTRITO DE OBSERVACIÓN
+OPEN|ABIERTO
+LOCKED|CERRADO
+Who will enter NULL CITY?|¿Quién entrará en NULL CITY?
+Selected character|Personaje seleccionado
+Your first step into the city|Tu primer paso en la ciudad
+Character selection|Selección de personaje
+What should we call you?|¿Cómo te llamas?
+Name or callsign|Nombre o alias
+This is your character's name. Local progress is saved on this device.|Este es el nombre de tu personaje. El progreso local se guarda en este dispositivo.
+Enter a name between 2 and 20 characters.|Escribe un nombre de entre 2 y 20 caracteres.
+NEW OPERATOR|NUEVO OPERADOR
+Choose your look and leave your first name in the system.|Elige tu aspecto y deja tu primer nombre en el sistema.
+03:17 / The city doesn't recognize its own|03:17 / La ciudad no reconoce a los suyos
+The train has left. A sign blinks: "All systems operational." Nearby, a woman tries her pass again. The door displays NULL. "I've lived here for twelve years," she says. The door does not answer.|El tren se ha ido. Un cartel parpadea: «Todos los sistemas funcionan». Una mujer vuelve a acercar su pase a la puerta. La pantalla muestra NULL. «Llevo doce años viviendo aquí», dice. La puerta no responde.
+Answer the call →|Responder a la llamada →
+Mara / Open channel|Mara / Canal abierto
+"Can you hear me, |«¿Me oyes, 
+operator|operador
+? I'm Mara, from the workshop. This is Yuna. Yesterday her address was in the registry. Today the system says she doesn't exist. We don't know whether it's a mistake or someone's work. So first we gather facts."|? Soy Mara, del taller. Esta es Yuna. Ayer su dirección estaba en el registro. Hoy el sistema dice que no existe. No sabemos si es un error o una acción deliberada. Primero reuniremos hechos».
+I've never done this before →|Nunca he hecho esto →
+First rule / Understand first|Primera regla / Comprender primero
+"Then we'll start together. You don't need secret commands. You need attention and a habit of checking your conclusions. You're authorized to use the workshop's training terminal. Look around and take a few steps first. Then we'll read Yuna's request."|«Entonces empezaremos juntos. No necesitas comandos secretos. Necesitas atención y comprobar tus conclusiones. Tienes permiso para usar el terminal de práctica del taller. Mira alrededor y da unos pasos. Luego leeremos la solicitud de Yuna».
+Step outside →|Salir a la calle →
+PROLOGUE / |PRÓLOGO / 
+ OF 3| DE 3
+Skip introduction|Saltar introducción
+Mara's guidance|Guía de Mara
+Show the way →|Mostrar el camino →
+Hide hints|Ocultar pistas
+MARA / ON THE LINE|MARA / EN LÍNEA
+01 / Look around|01 / Mira a tu alrededor
+Take a few steps: WASD, arrows or click a clear street. On mobile, use the joystick. I'll wait.|Da unos pasos: WASD, flechas o clic en una calle libre. En móvil usa el joystick. Te espero.
+Guide me to the terminal →|Guíame al terminal →
+02 / Find your first assignment|02 / Encuentra tu primer encargo
+Good. Now head to the workshop terminal. Press G or the button below to follow a route. Manual movement stops auto-walking.|Bien. Ve al terminal del taller. Pulsa G o el botón de abajo para seguir la ruta. El movimiento manual detiene el recorrido automático.
+03 / Open the terminal|03 / Abre el terminal
+You're here. Press E, the mobile action button or the button below. We'll read the request without changing the system.|Ya estás. Pulsa E, el botón de acción del móvil o el de abajo. Leeremos la solicitud sin cambiar el sistema.
+Open terminal →|Abrir terminal →
+04 / First trace|04 / Primer rastro
+NULL isn't Yuna's name: it means a missing record. We found a symptom, not the cause. Next, check connectivity at the distribution node.|NULL no es el nombre de Yuna: falta un registro. Encontramos un síntoma, no la causa. Ahora comprueba la conexión en el nodo de distribución.
+To the next lead →|A la siguiente pista →
+INCOMING CALL / NIGHT SHIFT|LLAMADA ENTRANTE / TURNO NOCTURNO
+To the next case →|Al siguiente caso →
+Night conversations|Conversaciones nocturnas
+Your reply: "|Tu respuesta: «
+Answer the call|Responder a la llamada

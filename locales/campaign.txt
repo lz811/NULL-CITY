@@ -1,0 +1,205 @@
+Rain District|Barrio de la Lluvia
+MARA|MARA
+EN|EN
+I used to fix cables. Now I fix people's access to their own apartments. The difference keeps shrinking.|Antes reparaba cables. Ahora reparo el acceso de la gente a sus casas. Cada vez hay menos diferencia.
+NYX|NIX
+Disappearing from a database doesn't mean someone never existed. Look for backups.|Desaparecer de una base de datos no significa no haber existido. Busca copias de seguridad.
+LEV|LEV
+Address first, then route, then name. That habit has saved more nights than coffee.|Primero la dirección, luego la ruta y después el nombre. Esa costumbre me salvó más noches que el café.
+YUNA|YUNA
+Tea's on the house if you restore the connection. My son is calling from the orbital station today.|Invita la casa si recuperas la conexión. Mi hijo llama hoy desde la estación orbital.
+ARCHIVIST|ARCHIVERO
+There are no errors in the registry. Only people who disagree with it.|En el registro no hay errores. Solo personas que no están de acuerdo.
+ECHO|ECO
+At three seventeen every camera blinked. Just one second. I didn't blink.|A las tres diecisiete todas las cámaras parpadearon. Un segundo. Yo no parpadeé.
+RIO|RÍO
+Parcel for apartment 404. The apartment exists; the recipient doesn't. How is that possible?|Paquete para el apartamento 404. El piso existe; el destinatario ya no. ¿Cómo es posible?
+SOL|SOL
+Mara says technology is neutral. I say: look at whose lights get turned off.|Mara dice que la tecnología es neutral. Yo digo: mira a quién le apagan la luz.
+BOR|BOR
+Keep old parts. And logs. Especially logs.|Conserva piezas viejas. Y registros. Sobre todo registros.
+GUARD|GUARDIA
+You can shut everything down and call it security. But the city has to live.|Puedes apagarlo todo y llamarlo seguridad. Pero la ciudad tiene que vivir.
+First shift|Primer turno
+MARA'S WORKSHOP|TALLER DE MARA
+Terminal and files|Terminal y archivos
+BASICS|FUNDAMENTOS
+"You don't need to know everything. Learn to ask the system questions." Mara leaves an old terminal and a note. Find your assignment.|«No necesitas saberlo todo. Aprende a hacerle preguntas al sistema». Mara deja un terminal viejo y una nota. Encuentra tu encargo.
+Find your location, list the files and read brief.txt.|Averigua dónde estás, lista los archivos y lee brief.txt.
+A terminal lets you talk to a computer through text. pwd shows the current directory, ls lists its contents, cat filename reads a file. Enter a command and press Enter.|El terminal permite hablar con el ordenador mediante texto. pwd muestra la carpeta actual, ls lista su contenido y cat nombre_de_archivo lee un archivo. Escribe el comando y pulsa Enter.
+Start with pwd: where is your working directory?|Empieza con pwd: ¿dónde está tu carpeta de trabajo?
+ls shows the file names.|ls muestra los nombres de los archivos.
+Type cat brief.txt to read the assignment.|Escribe cat brief.txt para leer el encargo.
+Find the current directory|Encontrar la carpeta actual
+List its contents|Listar su contenido
+Read the assignment|Leer el encargo
+A request from building 04 appears. Instead of a name: NULL. "That's Yuna," Mara says softly. "She runs the diner around the corner, feeding night workers when everything else is closed. Don't let an empty field convince you a person isn't there." The distribution node is next: check whether the signal gets through.|Aparece una solicitud del edificio 04. En lugar de nombre: NULL. «Es Yuna», dice Mara. «Tiene la cantina de la esquina. Alimenta al turno nocturno cuando todo está cerrado. No dejes que un campo vacío te convenza de que no existe». El rastro lleva al nodo de distribución: comprueba si llega la señal.
+The terminal executes commands. The file system stores information in directories and files.|El terminal ejecuta comandos. El sistema de archivos guarda información en carpetas y archivos.
+On the other side|Al otro lado
+DISTRIBUTION NODE|NODO DE DISTRIBUCIÓN
+IP and gateway|IP y puerta de enlace
+NETWORKS|REDES
+"This is your terminal's address. The gateway leads to another network." The node's lights are still on. The cable probably isn't the problem.|«Esta es la dirección de tu terminal. La puerta de enlace lleva a otra red». Los indicadores siguen encendidos. Parece que el cable no es el problema.
+Inspect the address and route. Test gateway 10.24.4.1 and city server 10.24.8.20.|Consulta la dirección y la ruta. Comprueba la puerta de enlace 10.24.4.1 y el servidor 10.24.8.20.
+An IP address identifies a device on a network. In our /24 network, 10.24.4.x addresses are local. Server 10.24.8.20 is on another network, reached through gateway 10.24.4.1. ping checks for replies; no reply alone does not prove a device is off.|Una IP identifica un dispositivo en la red. En nuestra red /24, las direcciones 10.24.4.x son locales. El servidor 10.24.8.20 está en otra red, accesible por 10.24.4.1. ping comprueba respuestas; que no responda no demuestra por sí solo que esté apagado.
+ip addr shows the device address; ip route shows where packets go.|ip addr muestra la dirección; ip route muestra por dónde se envían los paquetes.
+First test the nearest node: ping 10.24.4.1.|Prueba primero el nodo más cercano: ping 10.24.4.1.
+Now ping 10.24.8.20. If both reply, the basic route works.|Ahora ping 10.24.8.20. Si ambos responden, la ruta básica funciona.
+Find the terminal's IP|Consultar la IP del terminal
+Inspect the route|Examinar la ruta
+Receive a gateway reply|Recibir respuesta de la puerta de enlace
+Receive a server reply|Recibir respuesta del servidor
+The server responds by IP. But residents use its name. Next stop: the apartment building terminal.|El servidor responde por IP. Pero los vecinos usan su nombre. Próxima parada: el terminal del edificio.
+A gateway forwards packets to other networks. IP reachability and name resolution are separate checks.|La puerta de enlace envía paquetes a otras redes. El acceso por IP y la resolución de nombres son comprobaciones distintas.
+The lost address|La dirección perdida
+BUILDING 04 TERMINAL|TERMINAL DEL EDIFICIO 04
+DNS diagnostics|Diagnóstico DNS
+Yuna: "The network seems alive, but the portal says my home doesn't exist." Compare access by IP and name, then check DNS settings.|Yuna: «La red parece funcionar, pero el portal dice que mi casa no existe». Compara el acceso por IP y por nombre; después revisa el DNS.
+Restore DNS and open portal.city. The correct DNS address is in /etc/network.conf.|Restaura el DNS y abre portal.city. La dirección correcta está en /etc/network.conf.
+DNS maps server names to IP addresses. nslookup queries DNS; curl accesses a web service. If IP works but names don't, check DNS. In this lab, set dns ADDRESS changes the setting; real operating systems use different configuration methods.|DNS relaciona nombres con IP. nslookup consulta DNS; curl accede a un servicio web. Si la IP funciona pero el nombre no, revisa DNS. En este laboratorio, set dns DIRECCIÓN cambia el ajuste; en sistemas reales la configuración es distinta.
+Compare ping 10.24.8.20 and nslookup portal.city.|Compara ping 10.24.8.20 con nslookup portal.city.
+Read cat /etc/network.conf. Which DNS is the designated one?|Lee cat /etc/network.conf. ¿Cuál es el DNS previsto?
+Run set dns 10.24.4.53, then nslookup portal.city and curl portal.city.|Ejecuta set dns 10.24.4.53, después nslookup portal.city y curl portal.city.
+Inspect configuration|Examinar la configuración
+Restore the designated DNS|Restaurar el DNS previsto
+Verify name resolution|Verificar la resolución de nombres
+Open the city portal|Abrir el portal de la ciudad
+Connection restored. Windows light up, but Yuna's apartment is still listed as empty. An identifier remains in the configuration: ghost-17.|Conexión restablecida. Se iluminan las ventanas, pero el piso de Yuna sigue vacío en el registro. Queda un identificador en la configuración: ghost-17.
+DNS handles names. After fixing it, verify both name resolution and the application.|DNS resuelve nombres. Después de corregirlo, comprueba la resolución y la aplicación.
+A trace in the rain|Un rastro en la lluvia
+CITY ARCHIVE|ARCHIVO MUNICIPAL
+Logs and evidence|Registros y pruebas
+INVESTIGATION|INVESTIGACIÓN
+Mara: "Don't erase traces, even when you're desperate to fix everything." The archive has a change log and an empty evidence directory.|Mara: «No borres rastros, aunque quieras arreglarlo todo ya». El archivo contiene un registro de cambios y una carpeta vacía para pruebas.
+Read the log, preserve a copy and find ghost-17's event. Order matters: preserve first, record conclusions afterwards.|Lee el registro, conserva una copia y busca el evento de ghost-17. El orden importa: primero conservar, después registrar conclusiones.
+A log is a sequence of event records. cp copies a file; grep finds matching lines. In this lab, evidence add records a finding. Professional evidence handling also requires integrity checks and documented custody.|Un registro es una secuencia de eventos. cp copia un archivo; grep busca líneas. En este laboratorio, evidence add registra una conclusión. El trabajo profesional también requiere comprobar la integridad y documentar la custodia.
+Open cat /var/log/access.log.|Abre cat /var/log/access.log.
+Preserve the log: cp /var/log/access.log /evidence/access.log.|Conserva el registro: cp /var/log/access.log /evidence/access.log.
+Find grep ghost-17 /evidence/access.log and record evidence add ghost-17.|Busca grep ghost-17 /evidence/access.log y anota evidence add ghost-17.
+Read the events|Leer los eventos
+Preserve a log copy|Conservar una copia del registro
+Find ghost-17's change|Encontrar el cambio de ghost-17
+Record the evidence|Registrar la prueba
+03:17 — account ghost-17 changed DNS and began exporting the registry. The name disruption was a diversion.|03:17: ghost-17 cambió el DNS y comenzó a exportar el registro. El fallo de nombres era una distracción.
+Investigation conclusions need preserved data, timestamps and verifiable connections.|Las conclusiones necesitan datos conservados, marcas de tiempo y relaciones verificables.
+Keep the city alive|Mantener viva la ciudad
+DISTRICT GATEWAY|PUERTA DE ENLACE DEL BARRIO
+Network rules|Reglas de red
+DEFENSE|PROTECCIÓN
+A suspicious connection leaves the district. Blocking everything would also cut residents off from the portal. Find a precise rule.|Sale una conexión sospechosa del barrio. Bloquear todo también quitaría el portal a los vecinos. Busca una regla precisa.
+Inspect connections. Block the suspicious address, keep the portal available and check connections again.|Consulta las conexiones. Bloquea la dirección sospechosa, conserva el portal y vuelve a comprobar las conexiones.
+A firewall permits or blocks traffic using rules. Minimize disruption: restrict the dangerous flow and verify useful services. firewall block ADDRESS is a training command, not real firewall syntax.|Un firewall permite o bloquea tráfico mediante reglas. Minimiza la intervención: restringe el flujo peligroso y verifica los servicios útiles. firewall block DIRECCIÓN es un comando educativo, no sintaxis real.
+connections shows active flows and what the addresses are for.|connections muestra flujos activos y la función de las direcciones.
+The external export to 203.0.113.66 is suspicious. The portal uses 10.24.8.20.|La exportación a 203.0.113.66 es sospechosa. El portal usa 10.24.8.20.
+firewall block 203.0.113.66, then connections and curl portal.city.|firewall block 203.0.113.66, después connections y curl portal.city.
+Inspect connections|Examinar conexiones
+Stop the export|Detener la exportación
+Verify the block|Verificar el bloqueo
+Keep the portal working|Mantener el portal funcionando
+Export stopped; portal working. A backup of Yuna's record arrived. Connect the backup node and restore her access.|Exportación detenida; portal operativo. Llegó una copia del registro de Yuna. Conecta el nodo de respaldo y restaura su acceso.
+Successful defense stops the threat while preserving necessary services.|Una defensa eficaz detiene la amenaza y conserva los servicios necesarios.
+No voice in your earpiece|Sin voz en el auricular
+BACKUP NODE|NODO DE RESPALDO
+Independent diagnostics|Diagnóstico independiente
+SKILL CHECK|PRUEBA DE HABILIDAD
+Mara goes offline. "Try on your own. It's a different network: investigate instead of copying old addresses." Two configuration errors await.|Mara se desconecta. «Inténtalo por tu cuenta. Es otra red: investiga, no copies las direcciones anteriores». Hay dos errores de configuración.
+Restore archive.city. Read /etc/network.conf, fix the route and DNS, then verify the application.|Restaura archive.city. Lee /etc/network.conf, corrige ruta y DNS y verifica la aplicación.
+Combine familiar checks in a new network. The device, gateway and DNS use different addresses. Observe, identify the cause, fix and verify. The guide and hints remain available.|Combina comprobaciones conocidas en otra red. El equipo, la puerta de enlace y el DNS tienen otras direcciones. Observa, identifica, corrige y verifica. La guía y las pistas siguen disponibles.
+Check ip addr, ip route and cat /etc/network.conf.|Consulta ip addr, ip route y cat /etc/network.conf.
+The terminal is in 10.61.7.0/24. Use that network's gateway and DNS, listed in the configuration.|El terminal está en 10.61.7.0/24. Usa la puerta de enlace y el DNS de esa red, indicados en el archivo.
+set gateway 10.61.7.1 and set dns 10.61.7.53; verify nslookup archive.city and curl archive.city.|set gateway 10.61.7.1 y set dns 10.61.7.53; verifica nslookup archive.city y curl archive.city.
+Explore the new network|Explorar la nueva red
+Fix the gateway|Corregir la puerta de enlace
+Fix DNS|Corregir DNS
+Verify the archive|Verificar el archivo
+Backup archive reachable. Yuna exists in the registry again. But ghost-17 had a valid corporate service pass.|Archivo de respaldo accesible. Yuna vuelve a existir en el registro. Pero ghost-17 tenía un pase corporativo válido.
+Skill means adapting a solution to new conditions, not repeating familiar addresses.|Dominar una habilidad es adaptar la solución, no repetir direcciones conocidas.
+The person behind the record|La persona detrás del registro
+Incident report|Informe del incidente
+CHAPTER FINALE|FINAL DEL CAPÍTULO
+Yuna called her son. Mara lays your notes on the desk: "We restored one person. Now show what you can prove."|Yuna llamó a su hijo. Mara extiende tus notas: «Recuperamos a una persona. Ahora muestra lo que puedes demostrar».
+Build a report from verified conclusions and choose who gets a copy.|Redacta un informe con conclusiones verificadas y decide quién recibe una copia.
+A good report separates observations from assumptions. It states causes, evidence, actions and limitations. An account name alone cannot identify its owner.|Un buen informe separa observaciones de suposiciones. Expone causas, pruebas, medidas y límites. El nombre de una cuenta no identifica por sí solo a su dueño.
+Remember: the server answered by IP, but not by name.|Recuerda: el servidor respondía por IP, pero no por nombre.
+The log links ghost-17 to DNS changes and export. It does not identify the person.|El registro relaciona ghost-17 con cambios DNS y exportación. No identifica a la persona.
+Choose DNS failure, the ghost-17 log and a targeted block with service verification.|Elige fallo DNS, registro de ghost-17 y bloqueo selectivo con verificación del servicio.
+The first shift is over. Your journal receives an encrypted address for the next case: THE CORPORATION.|Termina el primer turno. Tu diario recibe una dirección cifrada para el próximo caso: THE CORPORATION.
+Verifiable evidence beats a confident assumption.|Una prueba verificable vale más que una suposición segura.
+IP address|Dirección IP
+A network interface address. In this chapter IPv4 uses four numbers: 10.24.4.18.|Dirección de una interfaz de red. En este capítulo IPv4 usa cuatro números: 10.24.4.18.
+/24 subnet|Subred /24
+In these examples the first three numbers identify the network. 10.24.4.18 and 10.24.4.53 share a /24.|Aquí los primeros tres números identifican la red. 10.24.4.18 y 10.24.4.53 comparten una /24.
+Gateway|Puerta de enlace
+A neighboring device that forwards packets to other networks.|Dispositivo vecino que envía paquetes a otras redes.
+A naming system that finds an IP for a name such as portal.city.|Sistema de nombres que encuentra la IP de un nombre como portal.city.
+Port|Puerto
+A numbered endpoint for a network service. HTTPS usually uses TCP/443.|Punto numerado de acceso a un servicio. HTTPS suele usar TCP/443.
+Log|Registro de eventos
+Event records: time, source, action and result.|Registros de eventos: hora, origen, acción y resultado.
+A mechanism controlling network traffic through rules.|Mecanismo que controla el tráfico de red mediante reglas.
+Evidence|Prueba
+Preserved information supporting a specific conclusion.|Información conservada que respalda una conclusión concreta.
+Post-fix verification|Verificación tras la corrección
+Observe again to confirm the problem is fixed and useful services work.|Observa de nuevo para confirmar que el problema está resuelto y los servicios funcionan.
+The voice that wasn't there|La voz que no existía
+RADIO 03.17|RADIO 03.17
+Phishing and independent verification|Phishing y verificación independiente
+FREQUENCY OF THE LIVING|LA FRECUENCIA DE LOS VIVOS
+Echo plays a recording: "It's Mara. Send the registry key. Now." The voice is flawless, but Mara never asks for keys over radio. A red light burns behind the studio glass: one night shift remains before the district's scheduled erasure.|Eco reproduce: «Soy Mara. Envía la clave del registro. Ahora». La voz es perfecta, pero Mara nunca pide claves por radio. Una luz roja brilla tras el cristal: queda un turno antes del borrado programado del barrio.
+Read the message and sender address, compare with trusted contacts and call Mara through the saved channel. Only then quarantine the message.|Lee el mensaje y la dirección del remitente, compáralos con contactos fiables y llama a Mara por el canal guardado. Solo entonces pon el mensaje en cuarentena.
+A familiar voice and urgency prove no identity. Compare the full domain, not just the display name. Verify with a trusted contact, not a number in the suspicious message. These commands are a training model.|Una voz familiar y la urgencia no prueban identidad. Compara el dominio completo, no solo el nombre. Verifica con un contacto fiable, no con el número del mensaje sospechoso. Los comandos son una simulación educativa.
+mail read shows the message and full sender address.|mail read muestra el mensaje y la dirección completa del remitente.
+contacts list shows trusted contacts; call mara makes an independent call.|contacts list muestra contactos fiables; call mara realiza una llamada independiente.
+After verification: mail quarantine. Do not reply with the key.|Tras verificar: mail quarantine. No respondas con la clave.
+Read the message|Leer el mensaje
+Check the trusted contact|Comprobar el contacto fiable
+Verify the request independently|Verificar la petición por otro canal
+Isolate the message|Aislar el mensaje
+"I didn't ask for a key," says Mara. "But they recorded that phrase while I worked at NEXUS." The message contains relay-17. Echo stops the music: "They even stole her voice."|«No pedí ninguna clave», dice Mara. «Pero grabaron esa frase cuando trabajaba en NEXUS». El mensaje contiene relay-17. Eco apaga la música: «Hasta le robaron la voz».
+Verify unusual requests through an independent channel. A voice and sender name alone do not prove identity.|Verifica peticiones inusuales por otro canal. La voz y el nombre no prueban identidad por sí solos.
+A key to every door|Una llave para todas las puertas
+MEMORY ARCHIVE|ARCHIVO DE LA MEMORIA
+Least privilege|Mínimo privilegio
+A PERSON IN THE SYSTEM|UNA PERSONA EN EL SISTEMA
+The archivist removes his badge. "I'm Ivo. I signed because I thought backups would fix everything." Courier account relay-17 can delete residents. Remove excessive access while preserving deliveries.|El archivero se quita la insignia. «Soy Ivo. Firmaba porque creía que las copias lo arreglarían todo». La cuenta de mensajería relay-17 puede borrar vecinos. Elimina el acceso excesivo sin impedir las entregas.
+Check relay-17's role and sessions. Set role courier, revoke old sessions and test allowed and denied actions.|Revisa el rol y las sesiones de relay-17. Asigna courier, revoca las sesiones antiguas y prueba acciones permitidas y prohibidas.
+Authorization defines permitted actions. Couriers need delivery addresses, not registry deletion. After changing roles, revoke old sessions and verify both legitimate and forbidden operations. courier allows delivery; administrator also allows deletion.|La autorización define acciones permitidas. Un mensajero necesita direcciones, no borrar el registro. Tras cambiar el rol, revoca sesiones y prueba operaciones legítimas y prohibidas. courier permite entregas; administrator también permite borrar.
+access show displays the role and live sessions.|access show muestra el rol y las sesiones activas.
+access role courier, then sessions revoke to remove old access.|access role courier y después sessions revoke para cerrar el acceso anterior.
+access test checks delivery and attempted registry deletion.|access test comprueba entregas e intentos de borrado.
+Inspect permissions|Examinar permisos
+Restrict the role|Limitar el rol
+Revoke old sessions|Revocar sesiones antiguas
+Verify restrictions and delivery|Verificar restricciones y entregas
+Couriers can see addresses again, but the old pass no longer opens the registry. Ivo hands you a drive: "Twelve homes. And my signature authorizing their normalization. Don't erase it."|Los mensajeros vuelven a ver direcciones, pero el pase viejo ya no abre el registro. Ivo te da una unidad: «Doce hogares. Y mi firma autorizando su normalización. No la borres».
+Changing permissions, revoking sessions and testing allowed actions are distinct steps. Security must preserve necessary work.|Cambiar permisos, revocar sesiones y probar acciones son pasos distintos. La seguridad debe conservar el trabajo necesario.
+Twelve warm windows|Doce ventanas cálidas
+Integrity and recovery|Integridad y recuperación
+RETURN|REGRESO
+The drive holds two backups. The newer claims a full registry, but its checksum disagrees with the trusted manifest. Ivo counts dark windows: "A home isn't one row. People live there."|La unidad contiene dos copias. La más reciente promete un registro completo, pero su suma no coincide con el manifiesto fiable. Ivo cuenta ventanas oscuras: «Un hogar no es una fila. Hay personas».
+Inspect backups and checksums. Restore verified night-02 in staging, test 12 records, then switch the city to the recovered registry.|Examina copias y sumas. Restaura night-02 verificada en pruebas, comprueba 12 registros y activa el registro recuperado.
+A checksum detects changes when its expected value comes from a trusted source. Matching alone does not prove content is safe. Restore separately, test, then deploy. The newest backup may be damaged.|Una suma detecta cambios si el valor esperado viene de una fuente fiable. La coincidencia no demuestra que el contenido sea seguro. Restaura aparte, verifica y activa. La copia más reciente puede estar dañada.
+backup list, then backup verify night-03 and backup verify night-02.|backup list, después backup verify night-03 y backup verify night-02.
+restore stage night-02 restores separately from the live registry.|restore stage night-02 restaura aparte del registro activo.
+restore test checks records; restore commit switches after a successful test.|restore test comprueba los registros; restore commit activa la copia tras la prueba.
+Inspect available backups|Examinar copias disponibles
+Verify integrity|Verificar integridad
+Restore in staging|Restaurar en pruebas
+Test 12 records|Comprobar 12 registros
+Return the registry to service|Reactivar el registro
+One window lights up. Then eleven more. Yuna sends a photo: couriers queue at the diner, finally with somewhere to go. Ivo stays at the terminal: "From now on, I check. I don't just sign."|Se ilumina una ventana. Luego once más. Yuna envía una foto: mensajeros hacen cola, por fin con destinos. Ivo sigue en el terminal: «Ahora comprobaré. No me limitaré a firmar».
+A working backup is one that actually restores the required data and passes verification.|Una copia útil permite restaurar los datos necesarios y supera su verificación.
+Frequency of the living|La frecuencia de los vivos
+Responsible disclosure|Divulgación responsable
+CHAPTER 02 FINALE|FINAL DEL CAPÍTULO 02
+Echo holds a finger above the broadcast button. Evidence includes the erasure order, Ivo's signature and residents' private addresses. "I want us heard, but I won't make people targets again." You decide.|Eco acerca el dedo al botón de emisión. Las pruebas incluyen la orden de borrado, la firma de Ivo y direcciones privadas. «Quiero que nos escuchen, pero no volver a convertirlos en objetivos». Tú decides.
+Read the dossier, remove private addresses and verify the package. Choose a public broadcast or secure handover to engineers.|Lee el expediente, elimina direcciones privadas y verifica el paquete. Elige emisión pública o entrega segura a ingenieros.
+Evidence and private data may share a file. Prepare a separate copy with only necessary information before sharing. Preserve originals. Public disclosure informs people immediately; targeted handover supports technical investigation.|Pruebas y datos privados pueden compartir archivo. Prepara una copia con solo lo necesario antes de compartir. Conserva los originales. La publicación informa de inmediato; la entrega dirigida facilita la investigación técnica.
+dossier read shows package contents.|dossier read muestra el contenido del paquete.
+dossier redact removes addresses from the copy; dossier verify checks it.|dossier redact elimina direcciones de la copia; dossier verify la comprueba.
+publish community broadcasts to residents; publish engineers sends to engineers. Both complete the case.|publish community emite para los vecinos; publish engineers envía a ingenieros. Ambos completan el caso.
+Read the materials|Leer los materiales
+Remove private addresses from the copy|Eliminar direcciones privadas de la copia
+Verify the package|Verificar el paquete
+Choose a delivery channel|Elegir un canal de entrega
+For the first time tonight, a living voice comes over the radio. Not an order or a forgery. Echo: "If the system says you don't exist, we'll speak your names." A reply arrives: "Station 6 hears you."|Por primera vez esta noche la radio transmite una voz viva. No una orden ni una falsificación. Eco: «Si el sistema dice que no existís, pronunciaremos vuestros nombres». Responden: «La estación 6 os escucha».

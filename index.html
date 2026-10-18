@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ru">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#0a0614"><meta name="description" content="NULL CITY — сюжетная пиксельная игра о кибербезопасности. Две главы, один город, твои решения."><title>NULL//CITY — SIGNAL LOST</title><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23080e17'/%3E%3Cpath d='M7 25V7h5l8 13V7h5v18h-5L12 12v13z' fill='%2375f5d1'/%3E%3C/svg%3E"><link rel="stylesheet" href="src/style.css?v=123"><link rel="stylesheet" href="src/signal.css?v=123"><link rel="stylesheet" href="src/opening-cover.css?v=123"></head>
+<body>
+<section id="opening-cover" role="button" tabindex="0" aria-label="Enter NULL CITY main menu" aria-describedby="cover-story" lang="en">
+ <div class="cover-copy" aria-hidden="true">
+  <p class="cover-kicker">NULL//CITY — SIGNAL LOST</p>
+  <h1 data-cover-line>EVERY SYSTEM HAS A WEAKNESS.</h1>
+  <p class="cover-paragraph" data-cover-line>Somewhere between code and chaos, a city is waiting.</p>
+  <p class="cover-paragraph" data-cover-line>Explore its streets. Uncover hidden networks. Break through firewalls. Discover the secrets buried beneath the system.</p>
+  <p class="cover-paragraph" data-cover-line>Every terminal is a challenge. Every vulnerability tells a story. Every choice leaves a trace.</p>
+  <p class="cover-paragraph cover-manifesto" data-cover-line>Learn to hack.
+Explore the unknown.
+Rewrite the rules.</p>
+ </div>
+ <p id="cover-story" class="cover-accessible">EVERY SYSTEM HAS A WEAKNESS. Somewhere between code and chaos, a city is waiting. Explore its streets. Uncover hidden networks. Break through firewalls. Discover the secrets buried beneath the system. Every terminal is a challenge. Every vulnerability tells a story. Every choice leaves a trace. Learn to hack. Explore the unknown. Rewrite the rules.</p>
+ <p class="cover-enter">[CLICK ANYWHERE TO ENTER]</p>
+</section>
+<div id="app" inert>
+<header><a class="brand" href="#" id="home">NULL<span>//</span>CITY<span class="edition"> NIGHT SHIFT</span></a><div class="signal"><i></i> ЛОКАЛЬНАЯ СЕТЬ <span>·</span> 03:17 AM</div><nav aria-label="Инструменты"><a class="club-link" href="hub.html">Клуб ↗</a><button id="capital-map" aria-label="Карта столицы">◎ <span>Столица</span></button><button id="character" aria-label="Редактор персонажа">♙ Персонаж</button><button id="courses" aria-label="Меню курсов">▦ <span>Курсы</span></button><button id="places" aria-label="Места квартала">⌂ <span>Места</span></button><button id="vision" title="Сетевое зрение [V]">◈ <span>Сеть</span><kbd>V</kbd></button><button id="inventory" aria-label="Улики и предметы">▣ Улики</button><button id="journal">▤ <span>Журнал</span><kbd>J</kbd></button><button id="audio" aria-label="Включить звук">♫</button><button id="settings" aria-label="Настройки">⚙</button></nav></header>
+<main>
+<section id="stage" aria-label="Пиксельный город">
+ <div id="frame"><canvas id="view" tabindex="0" aria-label="Город. WASD или стрелки — движение, E — взаимодействие. Можно нажать на улицу для движения."></canvas><div id="scan"></div><div id="chroma" aria-hidden="true"></div></div><div id="vignette"></div><div id="fx-grain" aria-hidden="true"></div>
+ <div class="location"><span class="micro">СЕКТОР 04 / ЖИЛАЯ ЗОНА</span><h1>Дождевой квартал<span class="live-dot"></span></h1><p>14°C <span> / </span> Сильный дождь <span> / </span> Ночная смена</p></div>
+ <div class="chapter-stamp">NIGHT SHIFT<span>01 — LOST ADDRESS</span></div>
+ <button id="room-exit" hidden>← Выйти в квартал</button><div id="zone" role="status"></div>
+ <div id="city-zoom" role="group" aria-label="Масштаб города"><button id="city-zoom-out" aria-label="Отдалить карту">−</button><button id="city-zoom-reset" aria-label="Обычный масштаб">100%</button><button id="city-zoom-in" aria-label="Приблизить карту">+</button></div>
+ <div id="prompt"></div><div id="toast" role="status"></div>
+ <div class="map-card"><div class="map-title"><span>КВАРТАЛ / 04</span><span class="mint">● LIVE</span></div><canvas id="mini" width="180" height="126" aria-label="Карта квартала"></canvas><div class="map-legend"><span>◇ ты</span><span class="amber">◆ дело</span><span class="mint">◆ завершено</span><span>◆ двери</span></div></div>
+ <button id="map-toggle" class="map-toggle" aria-expanded="false">Карта · M</button><div id="controls"><kbd>W A S D</kbd> идти <span>·</span> <kbd>SHIFT</kbd> бежать <span>·</span> <kbd>E</kbd> взаимодействие <span>·</span> клик — маршрут</div>
+ <div id="touch"><div id="pad"><div id="knob"></div></div><button id="touch-action">E</button></div>
+ <div id="intro" class="intro"><div class="intro-content"><div class="micro mint">СЮЖЕТНАЯ ИГРА О КИБЕРБЕЗОПАСНОСТИ</div><div class="intro-logo">NULL<span>//</span><br>CITY<span class="logo-dot">_</span></div><div class="intro-spectrum" aria-hidden="true"></div><div class="intro-rule"></div><p class="intro-tag">Город забыл твоё имя.<br>Научись читать его следы.</p><p class="intro-desc">Неоновый дождь. Чужая запись в реестре.<br>Твоя первая смена начинается сейчас.</p><button id="start" class="primary">Начать смену <span>↗</span></button><span class="intro-meta">2 ГЛАВЫ · 11 ДЕЛ · 5 ОТКРЫТЫХ ДВЕРЕЙ<br>Можно начать без знаний. Сохраняется автоматически.</span></div><div class="intro-side">A CITY OF SIGNALS.<br>A STORY OF PEOPLE.</div></div>
+</section>
+<aside>
+ <div class="aside-head"><span class="micro">ТВОЯ ПЕРВАЯ СМЕНА</span><span class="version">01 / 11</span></div>
+ <h2 class="campaign-title">Потерянный <br>адрес<span>_</span></h2><div class="progress-track"><i id="progress"></i></div>
+ <div id="current-case"></div>
+ <button id="navigate" class="route-button">↗ Проложить маршрут <kbd>G</kbd></button>
+ <button id="doors-menu" class="text-button">⌂ Открытые двери · магазин и истории ↗</button><div class="divider"></div>
+ <div class="section-heading"><span>ХОД РАССЛЕДОВАНИЯ</span><span id="done-count">0 / 11</span></div><div id="case-list"></div>
+ <div class="mentor-card"><canvas id="portrait" width="16" height="23"></canvas><div><span class="micro mint">МАРА / НАСТАВНИК</span><p id="mentor-line">«Не нужно знать всё.<br>Начни с правильного вопроса».</p></div></div>
+ <div class="operator"><div><span class="micro">ОПЕРАТОР</span><strong id="rank">Стажёр</strong></div><span id="xp">0 <small>XP</small></span></div>
+ <button id="guide" class="text-button">Открыть полевой справочник <span>↗</span></button>
+ <div id="save-status" role="status">● Прогресс сохраняется на этом устройстве</div>
+</aside>
+</main><footer><a href="privacy.html">Конфиденциальность</a><a href="terms.html">Условия</a><span><i></i> СИМУЛЯЦИЯ АКТИВНА <b> / </b> Все системы — учебные</span><span>NULL CITY <b>©</b> NIGHT SHIFT PROJECT</span></footer>
+</div>
+<div id="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title"></div>
+<script src="src/opening-cover.js?v=123"></script>
+<script src="src/campaign.js?v=123"></script>
+<script src="src/terrain-assets.js?v=123"></script><script src="src/city-meta.js?v=123"></script><script src="src/building-assets.js?v=123"></script><script src="src/city-meta2.js?v=123"></script><script src="src/city-meta3.js?v=123"></script><script src="src/pack2-assets.js?v=123"></script>
+<script src="src/walkcycle-assets.js?v=123"></script>
+<script src="src/object-assets.js?v=123"></script><script src="src/engine.js?v=123"></script><script src="src/art.js?v=123"></script><script src="src/characters.js?v=123"></script><script src="src/noir-art.js?v=123"></script><script src="src/menu.js?v=123"></script><script src="src/signal-ui.js?v=123"></script><script src="src/places.js?v=123"></script><script src="src/capital.js?v=123"></script><script type="module" src="src/app.js?v=123"></script>
+</body></html>

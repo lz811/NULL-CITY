@@ -1,0 +1,69 @@
+Radio 03.17|Radio 03.17
+Echo|Eco
+Pirate radio, a stolen voice and a choice the whole district will hear.|Radio pirata, una voz robada y una decisión que escuchará todo el barrio.
+Memory Archive|Archivo de la Memoria
+Ivo|Ivo
+Twelve darkened homes. An archivist who no longer wants to just sign papers.|Doce hogares a oscuras. Un archivero que ya no quiere limitarse a firmar.
+Mara's workshop|Taller de Mara
+Mara|Mara
+Old circuit boards, new questions. Your mentor's story and a training terminal.|Placas antiguas, preguntas nuevas. La historia de tu mentora y un terminal de práctica.
+Yuna|Yuna
+Hot tea, messages from orbit and a parcel with no recipient.|Té caliente, mensajes desde la órbita y un paquete sin destinatario.
+Nyx|Nix
+The night city's tailor. Try on outfits and buy them with XP.|La sastrería de la ciudad nocturna. Prueba atuendos y cómpralos con XP.
+Cybersecurity from scratch|Ciberseguridad desde cero
+START HERE|EMPIEZA AQUÍ
+From your first shift to an independent investigation. Learn through the city, commands and the consequences of your decisions.|De tu primer turno a una investigación independiente. Aprende con la ciudad, los comandos y las consecuencias de tus decisiones.
+Terminal and files|Terminal y archivos
+IP addresses and routes|Direcciones IP y rutas
+DNS and diagnostics|DNS y diagnóstico
+Logs and evidence|Registros y pruebas
+Firewall and defense|Firewall y protección
+Independent practice|Práctica independiente
+Incident report|Informe del incidente
+Phishing and independent verification|Phishing y verificación independiente
+Roles and session revocation|Roles y revocación de sesiones
+Backup integrity|Integridad de las copias de seguridad
+Responsible disclosure|Divulgación responsable
+OSCP preparation|Preparación para OSCP
+PRACTICAL PENTESTING|PENTESTING PRÁCTICO
+Work methodically in an authorized lab: explore systems, test hypotheses, gather evidence and document results.|Trabaja con método en un laboratorio autorizado: explora sistemas, comprueba hipótesis, reúne pruebas y documenta resultados.
+Scope and methodology|Alcance y metodología
+Linux, Windows and scripting|Linux, Windows y scripts
+Service enumeration|Enumeración de servicios
+Web applications|Aplicaciones web
+Privilege escalation|Escalada de privilegios
+Active Directory and networks|Active Directory y redes
+Full lab and report|Laboratorio completo e informe
+Before opening the scanner|Antes de abrir el escáner
+Your mentor authorizes testing one lab host: 10.10.8.15. Its web service links to another server, but a link does not expand the scope. Record authorized targets and restrictions, enumerate services, test hypotheses, confirm vulnerabilities and document results.|Tu mentora autoriza probar un único equipo: 10.10.8.15. Su web enlaza a otro servidor, pero un enlace no amplía el alcance. Anota los objetivos y límites autorizados, enumera servicios, comprueba hipótesis, confirma vulnerabilidades y documenta resultados.
+Which next step stays within scope?|¿Qué paso respeta el alcance autorizado?
+Scan the whole range: nearby servers must belong to the same company|Escanear todo el rango: los servidores vecinos deben pertenecer a la misma empresa
+Explore services on 10.10.8.15 and save observations; request authorization for the other host|Investigar los servicios de 10.10.8.15 y guardar observaciones; pedir autorización para el otro equipo
+Immediately run every available exploit|Ejecutar de inmediato todos los exploits disponibles
+Only one host is authorized. Enumeration reduces uncertainty; expanding the scope needs separate authorization.|Solo hay un equipo autorizado. La enumeración reduce la incertidumbre; ampliar el alcance exige otra autorización.
+Security+ preparation|Preparación para Security+
+DEFENSE AND RISK|PROTECCIÓN Y RIESGOS
+Why security works: identity, access, architecture, threats, operations and risk management.|Por qué funciona la seguridad: identidad, acceso, arquitectura, amenazas, operaciones y gestión de riesgos.
+Security principles|Principios de seguridad
+Threats and vulnerabilities|Amenazas y vulnerabilidades
+Secure architecture|Arquitectura segura
+Identity and access|Identidad y acceso
+Monitoring and response|Supervisión y respuesta
+Risk and recovery|Riesgo y recuperación
+Topic assessments|Evaluaciones por tema
+One role, one task|Un rol, una tarea
+Yuna needs an assistant to view diner orders, not change prices or export customer data. Authentication asks who you are; authorization determines what you may do. Least privilege grants only the access needed for the job. A separate account makes actions attributable.|Yuna necesita que un ayudante consulte pedidos, no cambie precios ni exporte datos de clientes. La autenticación identifica a la persona; la autorización determina qué puede hacer. El mínimo privilegio concede solo los permisos necesarios. Una cuenta propia permite atribuir las acciones.
+How should the assistant get access?|¿Cómo se debe dar acceso al ayudante?
+Share the administrator password to avoid delays|Compartir la contraseña de administrador para evitar retrasos
+Grant full access and review activity next month|Conceder acceso completo y revisar la actividad el mes que viene
+Create a separate account with read-only access to orders; review permissions when duties change|Crear una cuenta propia con lectura de pedidos y revisar los permisos al cambiar las tareas
+Separate accounts allow attribution; limited permissions reduce the impact of mistakes or compromise.|Las cuentas propias permiten atribuir acciones; los permisos limitados reducen el impacto de errores o intrusiones.
+Enter: |Entrar: 
+Return to the district|Volver al barrio
+Talk: |Hablar: 
+Fitting room / outfits for XP|Probador / atuendos por XP
+Training terminal|Terminal de práctica
+Investigation terminal|Terminal de investigación
+Notice: missing parcel|Aviso: paquete perdido
+Inspect the unclaimed parcel|Examinar el paquete sin destinatario
