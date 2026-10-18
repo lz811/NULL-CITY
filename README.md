@@ -10,7 +10,7 @@
 
 `FT_TRANSCENDENCE` · `WEB APPLICATION` · `CYBERSECURITY` · `MULTIPLAYER` · `PIXEL ART`
 
-<img src="docs/null-city-banner.gif" alt="NULL//CITY animated pixel-art city banner: falling rain, glowing neon, and flickering terminal" width="920">
+<img src="docsr/null-city-banner.gif" alt="NULL//CITY animated pixel-art city banner: falling rain, glowing neon, and flickering terminal" width="920">
 
 *The city remembers everything. Even the things someone tried to erase.*
 
