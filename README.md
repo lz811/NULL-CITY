@@ -1,4 +1,4 @@
-*This project has been created as part of the 42 curriculum by LOGIN_1, LOGIN_2, LOGIN_3, LOGIN_4.*
+*This project has been created as part of the 42 curriculum.*
 
 <div align="center">
 
@@ -17,9 +17,6 @@
 [Explore the city](#description) · [Run the project](#instructions) · [Architecture](#technical-stack-and-architecture) · [Modules](#ft_transcendence-modules) · [Evaluation status](#evaluation-status-and-known-limitations)
 
 </div>
-
-> [!IMPORTANT]
-> **Before the 42 evaluation:** replace `LOGIN_1`–`LOGIN_4` with the actual 42 logins (add a fifth if applicable). Complete the real team roles, feature ownership, contributions, and collaboration records below. The repository files do not establish who wrote which code or whether the module claims will be accepted.
 
 ---
 
