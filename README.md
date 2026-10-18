@@ -50,7 +50,7 @@ The gallery combines the **current menu background artwork** and screenshots inc
 #### 01 / The new menu atmosphere
 
 <p align="center">
-  <img src="docs/menu-room-artwork.png" alt="Current neon cyberpunk bedroom background with a rainy city, CRT television, and a cat on the windowsill" width="900" />
+  <img src="docsr/menu-room-artwork.png" alt="Current neon cyberpunk bedroom background with a rainy city, CRT television, and a cat on the windowsill" width="900" />
 </p>
 
 *Current menu background artwork. Interactive buttons and text are rendered by the game, not embedded in this image.*
@@ -65,24 +65,24 @@ The gallery combines the **current menu background artwork** and screenshots inc
 
 | Top-down cyberpunk city | In-game cybersecurity terminal |
 |:--:|:--:|
-| <img src="docs/signal-city.png" alt="Playable top-down cyberpunk city with streets, buildings, neon signage and quests" width="475" /> | <img src="docs/signal-terminal.png" alt="Interactive investigation terminal with mock files, commands and mission objectives" width="475" /> |
+| <img src="docsr/signal-city.png" alt="Playable top-down cyberpunk city with streets, buildings, neon signage and quests" width="475" /> | <img src="docs/signal-terminal.png" alt="Interactive investigation terminal with mock files, commands and mission objectives" width="475" /> |
 
 #### 04 / Make the story your own
 
 | Character customization | Mission dossier and progression |
 |:--:|:--:|
-| <img src="docs/character-editor.png" alt="Character customization panel with pixel character sprite and colors" width="475" /> | <img src="docs/player-dossier.png" alt="Player dossier with chapter objectives and completion status" width="475" /> |
+| <img src="docsr/character-editor.png" alt="Character customization panel with pixel character sprite and colors" width="475" /> | <img src="docs/player-dossier.png" alt="Player dossier with chapter objectives and completion status" width="475" /> |
 
 #### 05 / Districts and activities
 
 | Capital city district map | NEON THREAD clothing store |
 |:--:|:--:|
-| <img src="docs/capital-rings.png" alt="City district map shown inside the game" width="475" /> | <img src="docs/neon-thread-shop.png" alt="In-game store for clothes and player customization" width="475" /> |
+| <img src="docsr/capital-rings.png" alt="City district map shown inside the game" width="475" /> | <img src="docs/neon-thread-shop.png" alt="In-game store for clothes and player customization" width="475" /> |
 
 #### 06 / Mobile interface
 
 <p align="center">
-  <img src="docs/signal-mobile.png" alt="NULL//CITY running on a mobile-sized display with touch controls" width="270" />
+  <img src="docsr/signal-mobile.png" alt="NULL//CITY running on a mobile-sized display with touch controls" width="270" />
 </p>
 
 > Images document screens in the supplied archive; they are not evidence of independently verified multiplayer, deployment or module completion.
